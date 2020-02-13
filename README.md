@@ -1,35 +1,95 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# User-Centric-Milestone-Project1 - ALKAIOS
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
+##UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Users
 
-`python3 -m http.server`
+Expected users of the website include Fitness enthusiasts and fitness newcommers looking for classes and information on schedules.
 
-A blue button should appear to click: *Expose*,
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories
+1. A user wants to learn more about class duration and times from the schedule
+2. A user requires info on class types held
+3. A user requires information on the gym's location, opening hours, contact details and membership fees.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Design
 
-A blue button should appear to click: *Expose*,
+- 3 page site with nav bar. 
+- Colour scheme consists of complementary colours.
+- Logo is a custom Design.
+- roboto font used throughout the website.
+- font-family: 'Roboto', sans-serif;
 
-Another blue button should appear to click: *Open Browser*.
+## Planned Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- Bootstrap - HTML, CSS Framework
+- Grid System - Columns and Rows
+- images
+- Responsive design - Mobile First
+- UX elements
+- Animations
+- Transitions
+- Git - Version Control System
+- GitHub - Remote Repository
+- Deployed - Hosted on Github Pages
 
-## Updates Since The Instructional Video
+## Existing Features
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+- Bootstrap - HTML, CSS Framework
+- Grid System - Columns and Rows
+- images
+- Responsive design - Mobile First
+- UX elements
+- Animations
+- Transitions
+- Git - Version Control System
+- GitHub - Remote Repository
+- Deployed - Hosted on Github Pages
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Features Left to Implement
+- Payment gateway
 
---------
+## Deployment
+-The project is hosted on [GitHub Pages]
 
-Happy coding!
+-The process involved:
+- Host a git repository on GitHub. Explained 
+- The root folder contains README.md and index.html files
+- On GitHub repository settings page move to GitHub Pages section
+- Change source to master branch. (Or any desired branch)
+- Provided link will be your projects home (index) page.
+ 
+- To deploy your own version of the website:
+- Have git installed
+- Visit the [repository]
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, Gitpod, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+- When this completes you have your own version of the website
+- Feel free to make any changes to it
+- The website can be run by opening one of the HTML files within a web browser
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. 
+Development branches can be created and merged to the master when complete.
+It may take a moment for changes to appear on the hosted website.
+
+During development the site is written using Gitpod.
+
+## Credits
+
+### Content
+The text on the website has been copied and edited from:  
+
+
+### Media
+The images for the website are taken from:
+
+
+### Acknowledgements
+Thank you to the following for inspiration, motivation and the direction I needed:
+
+- Seun Owonikoko    @seun_mentor
