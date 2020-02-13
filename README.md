@@ -87,6 +87,8 @@ The text on the website has been copied and edited from:
 
 ### Media
 The images for the website are taken from:
+- www.svfitness.com gym.jpg
+
 
 
 ### Acknowledgements
