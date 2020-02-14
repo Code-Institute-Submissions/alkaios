@@ -10,10 +10,25 @@
 }
 /*-----------------------------colors*/
 
-
 .bg-color-name-moto {
 background-color: #00b64f;
 }
+
+
+.ui-menu-color-home {
+    background-color: #FF7940;
+}
+
+.ui-menu-color-classes {
+    background-color: #21825B;
+}
+.ui-menu-color-contact {
+    background-color: #00AE68;
+}
+.ui-menu-color-members {
+    background-color: #FF9D73;
+}
+
 
 .logo {
 background: url(../images/gym.jpg);

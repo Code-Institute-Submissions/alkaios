@@ -64,7 +64,7 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
  
 - To deploy your own version of the website:
 - Have git installed
-- Visit the [repository]
+- Visit the repository
 - Click 'Clone or download' and copy the code for http
 - Open your chosen IDE (Cloud9, Gitpod, etc.)
 - Open a terminal in your root directory
@@ -86,7 +86,7 @@ The text on the website has been copied and edited from:
 
 
 ### Media
-The images for the website are taken from:
+Some of the images for the website are taken from:
 - www.svfitness.com gym.jpg
 
 
