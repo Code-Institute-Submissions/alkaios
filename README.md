@@ -82,7 +82,7 @@ During development the site is written using Gitpod.
 ## Credits
 
 ### Content
-The text on the website has been copied and edited from:  
+The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
 
 
 ### Media

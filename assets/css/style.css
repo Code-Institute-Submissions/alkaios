@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+
+
 /*-----------------------------heading*/
 .header {
     margin: 0;
@@ -10,7 +12,7 @@
 
 }
 
-/*-----------------------------Special margins texts and padding etc.*/
+/*-----------------------------general margins texts and padding etc.*/
 
 h1,h2,h3,h4 {
 
@@ -35,7 +37,34 @@ h1,h2,h3,h4 {
     display: inline-block;
 }
 
+.row-table {
+
+    display: table;
+}
+
+.section-column {
+
+display: table-cell;
+padding: 0 30px 30px;
+float: none;
+
+}
+
+.section-heading {
+
+font-family: "Exo", sans-serif;
+font-weight: 300;
+margin-top: 25px;
+margin-bottom: 40px;
+
+}
+
 /*-----------------------------colors*/
+
+.index-section-1 {
+    
+    background-color: #fafafa;
+}
 
 .bg-color-name-moto {
 
