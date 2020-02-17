@@ -58,20 +58,26 @@ margin-top: 25px;
 margin-bottom: 40px;
 
 }
+.classes-heading {
+
+ margin-bottom: 15px;
+
+}
 
 /*-----------------------------colors*/
 
-.index-section-1 {
-    
-    background-image: url(../images/monkstowngym.jpg);
-    background-color: #fafafa;
-}
+
 
 .bg-color-name-moto {
 
     background-color: #052C6E;
 }
 
+.bg-color-classes {
+height: 100%;
+background-color: #5FC0CE;  
+color: #fff;
+}
 
 .ui-menu-color-home {
 
@@ -126,6 +132,10 @@ transition: all 1s ease-in-out;
     
 }
 
+.index-bg {
+  background: #5FC0CE;
+  color: #fff;
+}
 
 .list-inline-item:not(:last-child) {
 
@@ -220,10 +230,13 @@ background-color: #fafafa;
 
 }
 
+
+
 /*-----------------------------footer*/
 
 footer {
-
+bottom: 10px;
+position: fixed;
  background-color: #052C6E;
  color: #fafafa;
  min-height: 100px;
@@ -255,7 +268,7 @@ scroll-padding-bottom: 15px;
 }
 .social-links li a i:hover {
 
-    background: #FF7940;
+    background: #FFA400;
 }
 #footer-details {
 
