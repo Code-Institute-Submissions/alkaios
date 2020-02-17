@@ -75,8 +75,8 @@ margin-bottom: 40px;
 
 .bg-color-classes {
 height: 100%;
-background-color: #5FC0CE;  
-color: #fff;
+background-color: #fff;  
+
 }
 
 .ui-menu-color-home {
@@ -133,8 +133,9 @@ transition: all 1s ease-in-out;
 }
 
 .index-bg {
-  background: #5FC0CE;
-  color: #fff;
+height: 100vh;
+background: #fafafa;
+
 }
 
 .list-inline-item:not(:last-child) {
