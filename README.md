@@ -83,7 +83,7 @@ During development the site is written using Gitpod.
 
 ### Content
 The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
-
+The Contact page has been adapted from an idea on https://mdbootstrap.com/
 
 ### Media
 Some of the images for the website are taken from:

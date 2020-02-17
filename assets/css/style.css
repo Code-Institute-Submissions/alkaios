@@ -63,6 +63,7 @@ margin-bottom: 40px;
 
 .index-section-1 {
     
+    background-image: url(../images/monkstowngym.jpg);
     background-color: #fafafa;
 }
 
@@ -125,6 +126,7 @@ transition: all 1s ease-in-out;
     
 }
 
+
 .list-inline-item:not(:last-child) {
 
 margin: 0;
@@ -182,6 +184,32 @@ margin: 0;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/*-----------------------------Contact us*/
+.map-container {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+background-color: #fafafa;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:75%;
+width:75%;
+padding-bottom: 10px;
+position:absolute;
+background-color: #fafafa;
+}
+.md-form {
+padding-top: 10px;
+}
+
+.card {
+
+background-color: #fafafa;
+
 }
 
 /*-----------------------------hover.css*/
