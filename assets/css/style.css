@@ -68,29 +68,29 @@ margin-bottom: 40px;
 
 .bg-color-name-moto {
 
-    background-color: #007143;
+    background-color: #052C6E;
 }
 
 
 .ui-menu-color-home {
 
-    background-color: #FF7940;
+    background-color: #29497F;
     
 }
 
 .ui-menu-color-classes {
 
-    background-color: #00AE68;
+    background-color: #1049A9	;
 
 }
 .ui-menu-color-contact {
 
-    background-color: #36D695;
+    background-color: #6A92D4;
 
 }
 .ui-menu-color-membership {
 
-    background-color: #FF9D73;
+    background-color: #FFA400;
 
 }
 
@@ -121,7 +121,7 @@ transition: all 1s ease-in-out;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #FFA400;
     
 }
 
@@ -196,7 +196,7 @@ margin: 0;
 
 footer {
 
- background-color: #007143;
+ background-color: #052C6E;
  color: #fafafa;
  min-height: 100px;
 
