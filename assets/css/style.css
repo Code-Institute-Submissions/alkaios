@@ -14,7 +14,7 @@
 
 /*-----------------------------general margins texts and padding etc.*/
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
 
     margin: 0;
 }
@@ -60,7 +60,7 @@ margin-bottom: 40px;
 }
 .classes-heading {
 
- margin-bottom: 15px;
+ background-color: #3AAACF;
 
 }
 
@@ -237,7 +237,7 @@ background-color: #fafafa;
 
 footer {
 bottom: 10px;
-position: fixed;
+position: relative;
  background-color: #052C6E;
  color: #fafafa;
  min-height: 100px;
