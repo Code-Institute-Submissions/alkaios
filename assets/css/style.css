@@ -11,7 +11,7 @@
 
 }
 
-/*-----------------------------general&nbspmargins&nbsptexts&nbspand&nbsppadding&nbspetc.*/
+/*-----------------------------general/margins/text/spand/padding/etc.*/
 
 h1,h2,h3,h4,h5 {
 
@@ -132,14 +132,15 @@ transition: all 1s ease-in-out;
 .index-bg {
 
 background: url(..images/monkstowngym.jpg);
-background-position: center;
+background-position: relative;
 background-repeat: no-repeat;
 background-size: 300px;
+
 }
 
 .home-text {
-
-
+font-family: "robotto", sans-serif;
+font-size: 20px;
 
 }
 
