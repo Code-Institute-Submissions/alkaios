@@ -133,8 +133,9 @@ transition: all 1s ease-in-out;
 }
 
 .index-bg {
+
 background: url(../images/monkstowngym.jpg);
-opacity: 0.5;
+opacity: 0.7;
 background-position: center;
 background-repeat: no-repeat;
 background-size: 100%;
@@ -147,9 +148,11 @@ z-index: -1;
 .home-text {
 
 font-family: "Exo", sans-serif;
-font-size: 18px;
-color: #000;
-z-index: 1;
+font-size: 20px;
+    color: #000;
+
+z-index: 2.5;
+
 }
 .list-inline-item:not(:last-child) {
 
@@ -213,7 +216,7 @@ margin: 0;
 .map-container {
 overflow:hidden;
 padding-bottom:56.25%;
-position:relative;
+position: absolute;
 height:0;
 background-color: #fafafa;
 }
@@ -227,11 +230,13 @@ position:absolute;
 background-color: #fafafa;
 }
 .md-form {
-padding-top: 10px;
+padding-top: 0;
+height: 150px;
 }
 
 .card {
-
+padding-top: 0;
+height: 150px;
 background-color: #fafafa;
 
 }
