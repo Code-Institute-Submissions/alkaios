@@ -19,9 +19,9 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 - 3 page site with nav bar. 
 - Colour scheme consists of complementary colours.
 - Logo is a custom Design.
-- roboto font used throughout the website.
-- font-family: 'Roboto', sans-serif;
-
+- Roboto  and Exo fonts used throughout the website.
+- font-family: Roboto,Exo , sans-serif;
+ 
 ## Planned Features
 
 - Bootstrap - HTML, CSS Framework
@@ -50,7 +50,7 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 
 
 ### Features Left to Implement
-- Payment gateway
+- Payment gateway for membership portal
 
 ## Deployment
 -The project is hosted on [GitHub Pages]
@@ -87,11 +87,12 @@ The Contact page has been adapted from an idea on https://mdbootstrap.com/
 
 ### Media
 Some of the images for the website are taken from:
-- www.svfitness.com gym.jpg
-
-
+- www.svfitness.com
+-www.dlrleisure.ie
 
 ### Acknowledgements
 Thank you to the following for inspiration, motivation and the direction I needed:
 
 - Seun Owonikoko    @seun_mentor
+My 9 yr old son Tomás for being easily impressed and keeping me motivated,
+ when things were frustrating.
