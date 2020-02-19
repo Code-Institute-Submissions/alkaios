@@ -87,12 +87,13 @@ The Contact page has been adapted from an idea on https://mdbootstrap.com/
 
 ### Media
 Some of the images for the website are taken from:
-- www.svfitness.com
+-wwww.svfitness.com
 -www.dlrleisure.ie
+-www.perpetua.ie
 
-### Acknowledgements
+
+## Acknowledgements
 Thank you to the following for inspiration, motivation and the direction I needed:
 
 - Seun Owonikoko    @seun_mentor
-My 9 yr old son Tomás for being easily impressed and keeping me motivated,
- when things were frustrating.
+-My 9 yr old son Tomás for being easily impressed and keeping me motivated.
