@@ -105,9 +105,9 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 min-height: 300px;
-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--webkit-transition: all 1s ease-in-out;
+transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-webkit-transition: all 2s ease-in-out;
 }
 
 .name {
@@ -152,6 +152,12 @@ font-family: "robotto", sans-serif;
 font-size: 20px;
 color: #fff;
 text-align: center;
+}
+
+.class-text {
+
+color: #fff;
+font-size:18px;
 }
 
 .list-inline-item:not(:last-child) {
