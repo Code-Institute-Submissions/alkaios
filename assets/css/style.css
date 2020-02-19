@@ -293,6 +293,12 @@ scroll-padding-bottom: 15px;
 padding: 20px;
 
 }
+
+.membership {
+
+background: url(../images/soon.jpg);
+height: 600px;
+}
 #classes {
 
 height: 600px;
