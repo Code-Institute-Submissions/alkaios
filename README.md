@@ -96,4 +96,6 @@ Some of the images for the website are taken from:
 Thank you to the following for inspiration, motivation and the direction I needed:
 
 - Seun Owonikoko    @seun_mentor
--My 9 yr old son Tomás for being easily impressed and keeping me motivated.
+
+
+-My 9 yr old son Tomás for being impressed and keeping me motivated.
