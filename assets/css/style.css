@@ -73,7 +73,7 @@ margin-bottom: 40px;
 
 .bg-color-classes {
 height: 100%;
-background-color: #fff;  
+background-color: #F4FBFF;  
 
 }
 
@@ -135,11 +135,10 @@ transition: all 1s ease-in-out;
     float: none;
     padding: 0;
 }
+
 .home-bg {
 background-image: url(../images/gym2.jpg);
 height: 600px;
-
-
 
 }
 
@@ -294,7 +293,12 @@ scroll-padding-bottom: 15px;
 padding: 20px;
 
 }
+#classes {
 
+height: 600px;
+background-color: #F4FBFF;
+
+}
 /*-----------------------------media queries*/
 
 @media screen and (max-width: 600px){
