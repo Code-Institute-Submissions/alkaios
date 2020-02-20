@@ -224,6 +224,12 @@ margin: 0;
     letter-spacing: 2px;
 }
 /*-----------------------------Contactus*/
+
+#contact h1 {
+
+margin: 0;
+
+}
 .map-container {
 
 overflow:hidden;
@@ -252,7 +258,7 @@ font-size: 20px;
 
 .card {
 
-background-color: #8D99AD;
+background:url(../images/gym3.jpg);
 
 }
 
@@ -309,11 +315,18 @@ padding: 20px;
 
 }
 
-.membership {
+#membership {
 
-background: url(../images/soon.jpg);
-height: 600px;
+    background: url(../images/gym3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+
 }
+
 #classes {
 
 height: 600px;
@@ -322,10 +335,55 @@ background-color: #F4FBFF;
 }
 /*-----------------------------media queries*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1393px ){
 
-#home {
-background-image: none;
-background-color: #29497F;
+    #header{
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+                float: left;
+                padding: 0;
 
+    }
+
+    #home {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            float: left;
+            padding: 0;
+            }
+
+    #classes {
+
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            float: left;
+            padding: 0;
+
+    }
+    
+    #contact {
+
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            float: left;
+            padding: 0;
+
+    }
+    
+    #footer{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            float: left;
+            padding: 0;
+            }
+
+    hr {
+
+       display: none; 
+    }        
 }
