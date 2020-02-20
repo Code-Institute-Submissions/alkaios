@@ -68,34 +68,35 @@ margin-bottom: 40px;
 
 .bg-color-name-moto {
 
-    background-color: #052C6E;
+background-color: #052C6E;
+
 }
 
 .bg-color-classes {
-height: 100%;
+
 background-color: #F4FBFF;  
 
 }
 
 .ui-menu-color-home {
 
-    background-color: #29497F;
+background-color: #29497F;
     
 }
 
 .ui-menu-color-classes {
 
-    background-color: #1049A9   ;
+background-color: #1049A9   ;
 
 }
 .ui-menu-color-contact {
 
-    background-color: #6A92D4;
+background-color: #6A92D4;
 
 }
 .ui-menu-color-membership {
 
-    background-color: #FFA400;
+background-color: #FFA400;
 
 }
 
@@ -134,21 +135,22 @@ transition: all 2s ease-in-out;
     border: 0;
     float: none;
     padding: 0;
+    
 }
 
 .home-bg {
-background-image: url(../images/gym3.jpg);
+background: url(../images/gym3.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 600px;
+height: 650px;
+
 
 }
 
 
 .home-text {
 padding: 0;
-float: none;
 margin: 0;
 min-height: 300px;
 font-family: "robotto", sans-serif;
@@ -275,10 +277,10 @@ background:url(../images/gym3.jpg);
 
 footer {
 bottom: 10px;
-position: relative;
- background-color: #052C6E;
- color: #fafafa;
- min-height: 100px;
+
+background-color: #052C6E;
+color: #fafafa;
+min-height: 100px;
 
 }
 
@@ -321,7 +323,7 @@ padding: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 650px;
     margin: 0;
     padding: 0;
 
@@ -373,7 +375,7 @@ background-color: #F4FBFF;
             padding: 0;
 
     }
-    
+
     #footer{
             width: 100%;
             height: auto;
@@ -386,4 +388,43 @@ background-color: #F4FBFF;
 
        display: none; 
     }        
+}
+@media screen and (max-width: 943px ){
+
+    #header{
+        clear: left;
+        float: left;
+    }
+        #classes{
+        clear: left;
+        float: left;
+    }
+        #footer {
+
+         position: inherit;   
+        }
+            #footer-details {
+        clear: left;
+        float: left;
+    }
+    #home #home-text {
+
+        width: inherit;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #home div {
+        height: 100%;
+    }
+    #class-text {
+
+        width: inherit;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .h1,h2,h3,h4,h5{
+
+        width: 100%;
+        text-align: center;
+    }
 }
