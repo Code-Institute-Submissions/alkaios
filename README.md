@@ -29,8 +29,7 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 - images
 - Responsive design - Mobile First
 - UX elements
-- Animations
-- Transitions
+- Animations/Transitions
 - Git - Version Control System
 - GitHub - Remote Repository
 - Deployed - Hosted on Github Pages
@@ -42,8 +41,7 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 - images
 - Responsive design - Mobile First
 - UX elements
-- Animations
-- Transitions
+- Animations/Transitions
 - Git - Version Control System
 - GitHub - Remote Repository
 - Deployed - Hosted on Github Pages
@@ -73,9 +71,9 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 - Feel free to make any changes to it
 - The website can be run by opening one of the HTML files within a web browser
 
-The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. 
+A benefit of hosting the website on GitHub pages is any pushed changes to the project are updated on the website. 
 Development branches can be created and merged to the master when complete.
-It may take a moment for changes to appear on the hosted website.
+some changes can be a little bit slow
 
 During development the site is written using Gitpod.
 
@@ -96,6 +94,5 @@ Some of the images for the website are taken from:
 Thank you to the following for inspiration, motivation and the direction I needed:
 
 - Seun Owonikoko    @seun_mentor
-
 
 -My 9 yr old son Tomás for being impressed and keeping me motivated.
