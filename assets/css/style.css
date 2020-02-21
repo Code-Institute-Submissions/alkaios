@@ -39,12 +39,13 @@ h1,h2,h3,h4,h5 {
 .row-table {
 
     display: table;
+
 }
 
 .section-column {
 
 display: table-cell;
-padding: 0;
+padding: 3%, 0%, 0%, 0%;
 float: none;
 
 }
@@ -260,9 +261,10 @@ font-size: 20px;
 }
 
 .card {
-
 background:url(../images/gym3.jpg);
-
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 /*-----------------------------hover.css*/
@@ -277,11 +279,12 @@ background:url(../images/gym3.jpg);
 /*-----------------------------footer*/
 
 footer {
-bottom: 10px;
-
+bottom: 0;
+position: absolute;
 background-color: #052C6E;
 color: #fafafa;
-min-height: 100px;
+width: 100%;
+min-height: 2.5rem;
 
 }
 
@@ -335,6 +338,11 @@ padding: 20px;
 height: 600px;
 background-color: #F4FBFF;
 
+}
+
+#classes footer {
+
+    padding-top: 55px;;
 }
 /*-----------------------------media queries*/
 
