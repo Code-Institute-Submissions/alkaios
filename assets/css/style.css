@@ -348,17 +348,17 @@ background-color: #F4FBFF;
 /* Small devices  */
 @media only screen and (max-width: 600px) {
    
-   #footer{
+   #footer {
 
        display: none;
    }
 
-   .logo{
+   .logo {
 
   display: none;
 
    }
-.home-bg{
+.home-bg {
 background: url(../images/gym3.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -366,9 +366,33 @@ background-size: cover;
 height: 100%;
 }
 
+.name {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: left;
 }
 
+.moto {
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    color: #FFA400;
+    text-align: left;
     }
+
+.card {
+
+border: none;
+
+}
+}
+
+
 
 /* Medium devices  */
 @media only screen and (max-width: 768px) and (min-width: 601px) {
