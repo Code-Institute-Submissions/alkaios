@@ -106,7 +106,7 @@ background: url(../images/gym.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-min-height: 300px;
+min-height: 200px;
 transition: all 2s ease-in-out;
 -moz-transition: all 2s ease-in-out;
 -webkit-transition: all 2s ease-in-out;
@@ -278,7 +278,7 @@ background-size: cover;
 /*-----------------------------footer*/
 
 footer {
-bottom: 0;
+
 position: absolute;
 background-color: #052C6E;
 color: #fafafa;
