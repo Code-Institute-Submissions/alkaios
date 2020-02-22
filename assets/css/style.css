@@ -413,9 +413,10 @@ height: 100vh;
        display: none;
    }
 
-   .logo {
+.menucontainer {
 
-  size: 75%;
+    width: 100%;
 
-   }
+}
+
 }
