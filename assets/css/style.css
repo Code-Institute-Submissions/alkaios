@@ -401,6 +401,15 @@ border: none;
        display: none;
    }
 
+.heading{
+
+    width: 100%;
+}
+
+.logo{
+
+    display: none;
+}
 .home-bg {
 background: url(../images/gym3.jpg);
 background-position: center;
