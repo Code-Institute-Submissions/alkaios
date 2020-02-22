@@ -413,11 +413,9 @@ height: 100vh;
        display: none;
    }
 
-.menucontainer {
+#nav {
 
-   
     padding: 0;
-
 }
 
 }
