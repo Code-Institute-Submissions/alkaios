@@ -432,14 +432,15 @@ height: 100%;
     margin-top: 15px;
     color: #ffffff;
     text-align: left;
+    width: 100%;
 }
 
 .moto {
     font-family: "roboto", sans-serif;
     font-weight: 300;
     font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 45px;
+    margin-top: 15px;
+    margin-bottom: 35px;
     color: #FFA400;
     text-align: left;
     }
@@ -447,6 +448,12 @@ height: 100%;
 .card {
 
 border: none;
+
+}
+#nav {
+
+    width: 100%;
+
 
 }
 }
