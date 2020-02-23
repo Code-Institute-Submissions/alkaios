@@ -392,11 +392,11 @@ border: none;
 }
 }
 
-
-
-/* Medium devices  */
-@media only screen and (max-width: 768px){
+/* medium devices  */
+@media only screen and (max-width: 768px) {
+   
    #footer {
+
        display: none;
    }
 
@@ -406,9 +406,10 @@ background: url(../images/gym3.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 100%;
+height: 100vh;
 }
 
 
-
+}
+}
 }
