@@ -161,7 +161,7 @@ color: #fff;
 }
 
 .class-text {
-
+font-family: "Exo", sans-serif;
 color: #fff;
 font-size:18px;
 }
@@ -415,5 +415,8 @@ padding: 15px;
 
 }
 
+.classes-heading {
 
+    font-size: 95%;
+}
 }
