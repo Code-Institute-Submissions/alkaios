@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
+body {
+
+  background-image: url(images/gym3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color:#052C6E;
+  
+}
+
 /*-----------------------------heading*/
 .header {
     margin: 0;
@@ -393,7 +404,7 @@ border: none;
 }
 
 /* medium devices  */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
    
    #footer {
 
@@ -401,22 +412,14 @@ border: none;
    }
 
 
-.home-bg {
+
+@media only screen(min-width: 1024px) {
+ .home-bg {
 background: url(../images/gym3.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
-}
-
-#home-text{
-
-padding: 15px;
-
-}
-
-.classes-heading {
-
-    font-size: 95%;
+}   
 }
 }
