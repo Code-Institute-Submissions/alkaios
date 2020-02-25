@@ -2,8 +2,11 @@
 
 body{
 
-    background-color: #89A7AA;
+    background-color: #F0FBFC;
+     
 }
+
+.car
 
 /*-----------------------------heading*/
 .header {
@@ -16,6 +19,9 @@ body{
 
 }
 
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
 /*-----------------------------general/margins/text/spand/padding/etc.*/
 
 h1,h2,h3,h4,h5 {
@@ -260,7 +266,7 @@ font-size: 20px;
 }
 
 .card {
-
+background-color: #F0FBFC;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -345,58 +351,18 @@ padding-bottom: 2.5rem:
 
     padding-top: 55px;;
 }
-/*-----------------------------media queries*/
+/*-----------------------------carousel*/
 
-/* Small devices  */
-@media  screen and (max-width: 767px) and (min-width:320px) {
-   
-   #footer {
+ 
+      /* Carousel*/
+      .carousel .carousel-item .carousel-item.active {
+        height: 40%;
+      }
+      .carousel-inner {
+        height: 30%;
+      }
+      .carousel .carousel-item {
+        width: auto;
+        height: auto;
 
-       display: none;
-   }
-
-   .logo {
-
-  display: none;
-
-   }
-
-
-.name {
-    font-family: "Exo" sans-serif;
-    font-weight: 300;
-    font-size: 40px;
-    margin-top: 15px;
-    color: #ffffff;
-    text-align: left;
-}
-
-.moto {
-    font-family: "roboto", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 45px;
-    color: #FFA400;
-    text-align: left;
-    }
-
-.card {
-
-border: none;
-
-}
-}
-
-@media only screen ( min-width: 768px;) {
-
-footer{
-
-    display: none;
-}
-
-    .home-bg{
-        display: none;
-    }
-
-
+      }
