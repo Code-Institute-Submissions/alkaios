@@ -43,7 +43,85 @@
     <!--end of list containing nav bar items -->   
    </header>
    <!--end of the header containing the top banner logo and nav bar-->
+<style>div.gallery {
+border: 1px solid transparent;  
+}
 
+div.gallery:hover {
+  border: 1px solid transparent;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+</style>
+    <h2>Responsive Image Gallery</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="https://s10n.github.io/alkaios/assets/images/yoga.jpg" alt="Yoga" width="500" height="400">
+    </a>
+    <div class="desc">Yoga is an exercise for the mind and body. You will be guided through a sequence of physical postures promoting flexibility, mobility, stability, and strength</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="https://s10n.github.io/alkaios/assets/images/sculpt.jpg" alt="Body Sculpt" width="500" height="400">
+    </a>
+    <div class="desc"> A toning class focusing on the whole body with particular emphasis on the muscles of the stomach waist hips and backside will include the use of light weights and body weight exercises</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="https://s10n.github.io/alkaios/assets/images/spinning.jpg" alt="Spinning" width="500" height="400">
+    </a>
+     <div class="desc">A high intensity cardio workout on a stationary bike done at a fast pace to a mix of energetic music, a great calorie burner.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="https://s10n.github.io/alkaios/assets/images/rehab.jpg" alt="Cardiac Rehab" width="500" height="400">
+    </a>
+    <div class="desc">This programme is for individuals who have completed the phase lll hospital based cardiac rehabilitation programme, and who wish to continue exercising.<br>
+                                The programme is supervised by an exercise instructor who is qualified in cardiac rehabilitation. <br></div>
+  </div>
+</div>
+<div class="clearfix"></div>
+   </div>
 <!--start of footer containing address and social elements -->
 <div>
      <footer id="footer" class="container-fluid">
