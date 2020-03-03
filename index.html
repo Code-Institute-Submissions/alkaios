@@ -13,7 +13,9 @@
 </head>
 <body>
 <!--start of the header containing the top banner logo and nav bar-->
+
   <header>
+<div class="header">
     <div id="header" class="row no-gutters">
         <a class="col-md-4 col-sm-6 logo" href="index.html"></a>
            <div class="col-md-8 col-sm-6">
@@ -42,90 +44,74 @@
             </div>
     </div>
     <!--end of list containing nav bar items -->   
-   </header>
+</div>
    <!--end of the header containing the top banner logo and nav bar-->
-
-   <!--start of the slider-->
-   <style>div.gallery {
-border: 1px solid transparent;  
-}
-
-div.gallery:hover {
-  border: 1px solid transparent;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+  </header>
+    <div class="content">
+   <!--start of the video-->
+   
+    <video id="videoBG" poster="bgvid.mp4" autoplay muted loop class="container-fluid">
+            <source src="../assets/video/bgvid.mp4" type="video/mp4" >
+        
+    </video>
 
 
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-</style>
-    <h2>Responsive Image Gallery</h2>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="#">
-      <img src="https://s10n.github.io/alkaios/assets/images/yoga.jpg" alt="Yoga" width="500" height="400">
-    </a>
-    <div class="desc">Yoga is an exercise for the mind and body. You will be guided through a sequence of physical postures promoting flexibility, mobility, stability, and strength</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="#">
-      <img src="https://s10n.github.io/alkaios/assets/images/sculpt.jpg" alt="Body Sculpt" width="500" height="400">
-    </a>
-    <div class="desc"> A toning class focusing on the whole body with particular emphasis on the muscles of the stomach waist hips and backside will include the use of light weights and body weight exercises</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="#">
-      <img src="https://s10n.github.io/alkaios/assets/images/spinning.jpg" alt="Spinning" width="500" height="400">
-    </a>
-     <div class="desc">A high intensity cardio workout on a stationary bike done at a fast pace to a mix of energetic music, a great calorie burner.</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="#">
-      <img src="https://s10n.github.io/alkaios/assets/images/rehab.jpg" alt="Cardiac Rehab" width="500" height="400">
-    </a>
-    <div class="desc">This programme is for individuals who have completed the phase lll hospital based cardiac rehabilitation programme, and who wish to continue exercising.<br>
-                                The programme is supervised by an exercise instructor who is qualified in cardiac rehabilitation. <br></div>
-  </div>
-</div>
-<div class="clearfix"></div>
+<footer id="footer" class="container-fluid">
+<div class="footer">
+   <div id="footer-details" class="row">
+   
+   <div class="col-sm-6">
+        <h5 class="uppercase general-sub"> <i class="fa fa-address-card"></i>  Address</h5>
+        <p class="inline-block">
+        34/35, Corrig Avenue, Dun Laoghaire, Co. Dublin, A96 N299.</p>
    </div>
-
-
+   
+   <div class="col-sm-6">
+   <h5 class="uppercase general-sub">Social</h5>
+   <ul class="list-inline social-links">
+         <li class="list-inline-item">
+            <a target="_blank" href="http://facebook.com">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <span class="sr-only">Facebook</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://twitter.com">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <span class="sr-only">Twitter</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://linkedin.com">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <span class="sr-only">LinkedIn</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://pinterest.com">
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <span class="sr-only">Pinterest</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://instagram.com">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://youtube.com">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+            <span class="sr-only">YouTube</span>
+            </a>
+        </li>
+   </ul>
+   </div>
+   
+   </div>
+</div>
+   </footer>
+    </div>
 </body>
 </html>

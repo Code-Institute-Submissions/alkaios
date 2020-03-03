@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
-body{
-
-    background-color: rgb(205, 207, 207);
-     
+* {
+ box-sizing: border-box;
 }
-
-
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+html,
+body {
+ height: 100%;
+ position: relative;
+ margin: 0; 
+ padding-bottom: 150px;
+ background-color: rgb(205, 207, 207);
+}
 
 .header {
     margin: 0;
@@ -17,7 +25,13 @@ body{
     margin-left: 50px;
 
 }
-
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 150px; /* height of your footer */
+}
 
 /*-----------------------------general/margins/text/padding/etc.*/
 
@@ -194,64 +208,52 @@ margin: 0;
     height: 100px;
 }
 
-/*-----------------------------images*/
-
-div.gallery {
-border: 1px solid transparent;  
-}
-
-div.gallery:hover {
-  border: 1px solid transparent;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
+/*-----------------------------index video*/
+	#videoBG {
+   
     width: 100%;
-  }
+    height: auto;
+    max-height: 25vh%;
+    padding: 0;
+	position:fixed;
+	z-index: -1;
+	}
+
+    #videobg .container-fluid{
+
+        padding: 0;
+        margin: 0;
+    } 
+	@media (min-aspect-ratio: 16/9) {
+	#videoBG {
+	width:100%;
+	height: 25vh;
+	}
+	}
+	@media (max-aspect-ratio: 16/9) {
+	#videoBG { 
+	width:auto;
+    height: 25vh;
+    }
+	}
+	@media (max-width: 767px) {
+    #videoBG {
+	display: none;
+	}
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
 /*-----------------------------footer*/
 
 footer {
 
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+
 background-color: #052C6E;
 color: #fafafa;
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-min-height: 12 rem;
-
 
 
 }
