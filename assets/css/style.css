@@ -18,6 +18,8 @@ body {
 
 .header {
     margin: 0;
+    height: 15vh;
+   
 }
 
 .heading {
@@ -209,37 +211,33 @@ margin: 0;
 }
 
 /*-----------------------------index video*/
-	#videoBG {
-   
-    width: 100%;
-    height: auto;
-    max-height: 25vh%;
-    padding: 0;
-	position:fixed;
-	z-index: -1;
-	}
+	.after, .before {
+    height:50px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    #videobg .container-fluid{
+#video {
+    position: relative;
+    max-height:150px;
+    width:100%;
+    overflow: hidden;
+}
+#videobg {
+    position: absolute;
+    top: 0;
+    left: 0;
 
-        padding: 0;
-        margin: 0;
-    } 
-	@media (min-aspect-ratio: 16/9) {
-	#videoBG {
-	width:100%;
-	height: 25vh;
-	}
-	}
-	@media (max-aspect-ratio: 16/9) {
-	#videoBG { 
-	width:auto;
-    height: 25vh;
-    }
-	}
-	@media (max-width: 767px) {
-    #videoBG {
-	display: none;
-	}
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+	
+#videobg .container-fluid {
+padding: 0;
+height: 150px;
+
 }
 
 
@@ -248,7 +246,9 @@ margin: 0;
 
 footer {
 
- position: absolute;
+ position: relative;
+ padding: 
+ height: 150px;
  bottom: 0;
  width: 100%;
 
@@ -284,10 +284,10 @@ scroll-padding-bottom: 15px;
 
 .social-links li a i {
 
-    width: 130px;
+    width: 100px;
     height: 30px;
     padding: 12px 0;
-    border-radius: 25%;
+    border-radius: 20%;
     font-size: 25px;
     line-height: 7px;
     text-align: center;
