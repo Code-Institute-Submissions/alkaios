@@ -28,11 +28,11 @@ body {
 
 }
 .main-container {
- min-height: 100vh; /* will cover the 100% of viewport */
+ min-height: 50vh; /* will cover the 100% of viewport */
  overflow: hidden;
  display: block;
  position: relative;
- padding-bottom: 150px; /* height of your footer */
+ padding-bottom: 10px; /* height of your footer */
 }
 
 /*-----------------------------general/margins/text/padding/etc.*/
@@ -112,7 +112,7 @@ background: url(../images/gym.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-min-height: 300px;
+min-height: 150px;
 transition: all 2s ease-in-out;
 -moz-transition: all 2s ease-in-out;
 -webkit-transition: all 2s ease-in-out;
@@ -223,6 +223,7 @@ margin: 0;
     max-height:150px;
     width:100%;
     overflow: hidden;
+    object-fit: scale-down;
 }
 #videobg {
     position: absolute;
@@ -239,7 +240,21 @@ padding: 0;
 height: 150px;
 
 }
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+h1 {
+  color: white;
+  font-family: 'robotto', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
 
 
 /*-----------------------------footer*/
