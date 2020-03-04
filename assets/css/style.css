@@ -274,7 +274,7 @@ h1 {
 /*-----------------------contact form*/
 
 #contactus h2  {
-    text-align: center;
+text-align: center;
 padding-left: 50px;
 font-size: 3vw;
 }
@@ -296,7 +296,9 @@ background-color: rgb(192, 195, 196);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+padding-bottom: 10px;
 }
+
 
 
 .map-container-6 {
