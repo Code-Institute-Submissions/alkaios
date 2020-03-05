@@ -15,6 +15,7 @@ html {
 *:after {
  box-sizing: border-box;
 }
+
 body {
  height: 100%;
  width: 100%;
@@ -27,14 +28,14 @@ body {
 .header {
     margin: 0;
     height: 15vh;
-   
-}
+   }
 
 .heading {
 
     margin-left: 50px;
 
 }
+
 .main-container {
  height: 100vh; 
  width: auto;
@@ -275,23 +276,35 @@ h1 {
 
 #contactus h2  {
 text-align: center;
+font-family: 'robotto', sans-serif;
+color: #000;
 padding-left: 50px;
 font-size: 3vw;
 }
 
+#contactus h1 {
+font-family: 'robotto', sans-serif;
+    color: #000;
+    font-weight: 500;
+}
 #contactus p {
+font-family: 'robotto', sans-serif;
     text-align: center;
     padding-left: 50px;
-    font-size: 1vw;
-    
-}
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+ }
+
 .md-form {
+font-family: 'robotto', sans-serif;
 padding-top: 10px;
-color: #000;
+color: #fff;
 font-size: 20px;
 }
 
 .card {
+font-family: 'robotto', sans-serif;
 background-color: rgb(192, 195, 196);
 background-position: center;
 background-repeat: no-repeat;
@@ -299,7 +312,16 @@ background-size: cover;
 padding-bottom: 10px;
 }
 
+.form-header h3  {
+font-family: 'robotto', sans-serif;
+    color: #fff;
+}
 
+.form-header p {
+font-family: 'robotto', sans-serif;
+color: #fff;
+
+}
 
 .map-container-6 {
 overflow:hidden;
@@ -307,6 +329,7 @@ padding-bottom:56.25%;
 position:relative;
 height:0;
 }
+
 .map-container-6 iframe {
 left:0;
 top:0;
@@ -316,7 +339,7 @@ position:absolute;
 }
 
 /*-----------------------------Joinus*/
-#joinus{
+#joinus {
     max-height: 100vh;
 }
 
@@ -339,7 +362,6 @@ footer {
 
  position: relative;
  padding-top: 140px:
- 
  bottom: 0;
  width: 100%;
  background-color: #052C6E;
@@ -354,23 +376,6 @@ scroll-padding-bottom: 15px;
 
 }
 
-.social-links li a i {
-
-    width: 130px;
-    height: 30px;
-    padding: 12px 0;
-    border-radius: 25%;
-    font-size: 25px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
-}
 
 .social-links li a i {
 
