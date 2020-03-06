@@ -414,24 +414,7 @@ border: 1px solid transparent;
 }
 
 /*----------video---------*/
-  /* Carousel*/
-      .carousel,
-      .carousel-item,
-      .carousel-item.active {
-        height: 100%;
-      }
-      .carousel-inner {
-        height: 100%;
-      }
-      .carousel .carousel-item video {
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+
 
 /*-----------------------------Joinus*/
 
