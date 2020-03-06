@@ -15,7 +15,8 @@ height: 100%;
 }
 
 body {
-  display: flex;
+
+ display: flex;
  flex-direction: column;
  background-color: rgb(205, 207, 207);
 
@@ -109,7 +110,9 @@ background-color: #FFA400;
 /*-----------------------------colors*/
 
 /*-----------------------------header*/
+
 .logo {
+
 background: url(../images/gym.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -121,6 +124,7 @@ transition: all 2s ease-in-out;
 }
 
 .name {
+
     font-family: "Exo" sans-serif;
     font-weight: 300;
     font-size: 46px;
@@ -130,6 +134,7 @@ transition: all 2s ease-in-out;
 }
 
 .moto {
+
     font-family: "roboto", sans-serif;
     font-weight: 300;
     font-size: 28px;
@@ -151,6 +156,7 @@ margin: 0;
 
 
 .menucontainer {
+
     font-size: 0;
 
 }
@@ -193,6 +199,7 @@ margin: 0;
 }
 
 .menuitem span {
+
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -208,12 +215,15 @@ margin: 0;
 /*-----------------------------hover.css*/
 
 .hvr-sweep-to-bottom::before {
+
     background: rgba(0, 0, 0, 0.2);
     height: 100px;
 }
 
 /*-----------------------------index video*/
+
 	.after, .before {
+
     height:50px;
     background-color: gray;
     margin-top: 10px;
@@ -221,6 +231,7 @@ margin: 0;
 }
 
 #video {
+
     position: relative;
     height:80vh;
     width:100%;
@@ -230,7 +241,9 @@ margin: 0;
     margin: 0;
     opacity: .1;
 }
+
 #videobg {
+
     padding-left: 0;
     padding-right: 0;
     position: absolute;
@@ -244,96 +257,125 @@ margin: 0;
 }
 	
 .container-fluid {
+
 padding-right: 0;
 padding-left: 0; 
 padding-bottom: 0;
 
 }
+
 .overlay-desc {
+
   background: rgba(0,0,0,0);
   position: fixed;
   top: 0; bottom: 0; 
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 h1 {
+
   color: white;
   font-family: 'robotto', sans-serif;
-  font-size: 9vw;
+  font-size: 8vw;
   text-align: center;
 }
+
 /*-----------------------contact form*/
 
 #contactus h2  {
+
 text-align: center;
 font-family: 'robotto', sans-serif;
 color: #fff;
 padding-top: 50px;
 padding-left: 50px;
 font-size: 3vw;
+
 }
 
 #contactus h1 {
+
 font-family: 'robotto', sans-serif;
-    color: #fff;
-    font-weight: 500;
+color: #fff;
+font-weight: 500;
+
 }
+
 #contactus p {
+
 font-family: 'robotto', sans-serif;
-    text-align: center;
-    padding-left: 50px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #fff;
- }
+text-align: center;
+padding-left: 50px;
+font-weight: 500;
+font-size: 14px;
+color: #fff;
+
+}
+
+
 
 .md-form {
+
 font-family: 'robotto', sans-serif;
 padding-top: 10px;
 color: #fff;
 font-size: 20px;
+
 }
 
 .card {
+
 font-family: 'robotto', sans-serif;
 background-color: rgb(192, 195, 196);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 padding-bottom: 10px;
+
 }
 
 .form-header h3  {
+
 font-family: 'robotto', sans-serif;
     color: #fff;
+
 }
 
-.card p{
+.card p {
+
 font-family: 'robotto', sans-serif;
 color: #fff;
 
 }
 
 .map-container {
+
 overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
 height:0;
+
 }
 
 .map-container iframe {
+
 left:0;
 top:0;
 height:100%;
 width:100%;
 position:absolute;
+
 }
 
 /*-----------------------------Joinus*/
+
 #joinus {
+
     max-height: 100vh;
+
 }
 
 #joinus h2 {
@@ -351,7 +393,7 @@ position:absolute;
 }
 /*-----------------------------footer*/
 
-.footer {
+footer {
 
  flex-shrink: 0;
  width: 100%;
@@ -385,9 +427,11 @@ scroll-padding-bottom: 15px;
     -o-transition: all 0.35s ease-in-out;
 
 }
+
 .social-links li a i:hover {
 
     background: red;
+
 }
 
 
@@ -399,3 +443,28 @@ padding: 20px;
 
 }
 
+/*---------media queries---*/
+
+/* smartphones, iPhone, portrait 480x320 phones */
+
+@media (min-width:320px) { 
+
+height: 100%; 
+padding: 0;
+
+}
+
+/* portrait e-readers Kindle, smaller tablets @ 600 or @ 640 wide. */
+@media only screen and (min-width:481px)  { }
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  { }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { }
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) { }
+
+/* hi-res laptops and desktops *//* hi-res laptops and desktops */
+@media (min-width:1281px) { }
