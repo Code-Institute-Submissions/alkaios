@@ -230,32 +230,9 @@ margin: 0;
     margin-bottom: 10px;
 }
 
-#video {
 
-    position: relative;
-    height:80vh;
-    width:100%;
-    overflow: hidden;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-    opacity: .1;
-}
 
-#videobg {
 
-    padding-left: 0;
-    padding-right: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-height: auto;
-    width:auto;
-    z-index: -1000;
-    margin: 0;
-
-}
-	
 .container-fluid {
 
 padding-right: 0;
@@ -264,16 +241,7 @@ padding-bottom: 0;
 
 }
 
-.overlay-desc {
 
-  background: rgba(0,0,0,0);
-  position: fixed;
-  top: 0; bottom: 0; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 h1 {
 
@@ -285,90 +253,7 @@ h1 {
 
 /*-----------------------contact form*/
 
-#contactus h2  {
 
-text-align: center;
-font-family: 'robotto', sans-serif;
-color: #fff;
-padding-top: 50px;
-padding-left: 50px;
-font-size: 3vw;
-
-}
-
-#contactus h1 {
-
-font-family: 'robotto', sans-serif;
-color: #fff;
-font-weight: 500;
-
-}
-
-#contactus p {
-
-font-family: 'robotto', sans-serif;
-text-align: center;
-padding-left: 50px;
-font-weight: 500;
-font-size: 14px;
-color: #fff;
-
-}
-
-
-
-.md-form {
-
-font-family: 'robotto', sans-serif;
-padding-top: 10px;
-color: #fff;
-font-size: 20px;
-
-}
-
-.card {
-
-font-family: 'robotto', sans-serif;
-background-color: rgb(192, 195, 196);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding-bottom: 10px;
-
-}
-
-.form-header h3  {
-
-font-family: 'robotto', sans-serif;
-    color: #fff;
-
-}
-
-.card p {
-
-font-family: 'robotto', sans-serif;
-color: #fff;
-
-}
-
-.map-container {
-
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-
-}
-
-.map-container iframe {
-
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-
-}
 /*-----------------------------classes*/
 
 .gallery {
@@ -380,13 +265,21 @@ border: 1px solid transparent;
 }
 
 .gallery img {
+  margin: 5%;
   width: 100%;
   height: auto;
+  
 }
 
 .desc {
-  padding: 50px 15px 15px 15px;
-  text-align: center;
+
+ padding-top: 10%;
+ height: 90%;
+ width: 90%;
+ text-align: center;
+}
+.desc h5{
+    scroll-padding-bottom: 10%;
 }
 
 
