@@ -279,7 +279,7 @@ border: 1px solid transparent;
  text-align: center;
 }
 .desc h5{
-    scroll-padding-bottom: 10%;
+    padding-bottom: 10%;
 }
 
 
@@ -297,12 +297,19 @@ border: 1px solid transparent;
     width: 49.99999%;
     margin: 6px 0;
   }
+  .gallery img {
+  margin: 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     display: inline-block;
     width: 100%;
+    margin: 0;
+  }
+    .gallery img {
+  margin: 0;
   }
 }
 
@@ -318,7 +325,7 @@ border: 1px solid transparent;
       height: 25vw;
     }
     
-    @media (min-width: $bootstrap-lg) {
+    @media (min-width: bootstrap-lg) {
       height: 18vw;
     }
   }
