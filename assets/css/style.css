@@ -220,6 +220,10 @@ margin: 0;
     height: 100px;
 }
 
+.md-form{
+
+    justify-self: center;
+}
 /*-----------------------------index video*/
 
 	.after, .before {
@@ -309,7 +313,7 @@ border: 1px solid transparent;
     margin: 0;
   }
     .gallery img {
-  margin: 0;
+  margin: 20;
   }
 }
 
@@ -320,6 +324,7 @@ border: 1px solid transparent;
   img {
     height: 40vw;
     object-fit: cover;
+    margin: 25px;
     
     @media (min-width: bootstrap-md) {
       height: 25vw;
@@ -389,6 +394,65 @@ border: 1px solid transparent;
 
     text-align: center;
 }
+
+
+
+/*-----------------------------Contactus*/
+
+#contact h1 {
+
+margin: 0;
+
+}
+
+.map-container-11 {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-container-11 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.map-container {
+
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height: 400px;
+width: 100%;
+background-color: #8D99AD;
+
+}
+.map-container iframe{
+left:0;
+top:0;
+height:400px;
+width:100%;
+padding-bottom: 10px;
+position:absolute;
+background-color: #8D99AD;
+
+}
+.md-form {
+padding-top: 10px;
+color: #fff;
+font-size: 20px;
+}
+
+.card {
+background-color: #F0FBFC;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 /*-----------------------------footer*/
 
 footer {
