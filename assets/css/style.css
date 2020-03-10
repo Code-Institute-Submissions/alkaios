@@ -251,7 +251,7 @@ h1 {
 
   color: white;
   font-family: 'robotto', sans-serif;
-  font-size: 8vw;
+  font-size: 3vw;
   text-align: center;
 }
 
@@ -289,6 +289,7 @@ border: 1px solid transparent;
 
 
 .responsive {
+    margin: 5%;
   display: inline-block;
   padding: 0 6px;
   float: left;
@@ -302,7 +303,7 @@ border: 1px solid transparent;
     margin: 6px 0;
   }
   .gallery img {
-  margin: 0;
+  margin: 5%;
   }
 }
 
@@ -310,7 +311,7 @@ border: 1px solid transparent;
   .responsive {
     display: inline-block;
     width: 100%;
-    margin: 0;
+    margin: 5%;
   }
     .gallery img {
   margin: 20;
@@ -319,59 +320,32 @@ border: 1px solid transparent;
 
 /*----------home carousel---------*/
 
-#mygallery {
-  
-  img {
-    height: 40vw;
-    object-fit: cover;
-    margin: 25px;
-    
-    @media (min-width: bootstrap-md) {
-      height: 25vw;
-    }
-    
-    @media (min-width: bootstrap-lg) {
-      height: 18vw;
-    }
-  }
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
 }
-/*-- Crop images in lightbox*/
-.carousel-item {
-  
-  img {
-    height: 60vw;
-    object-fit: cover;
-    
-    @media (min-width: bootstrap-sm) {
-      height: 350px;
-    }
-  }
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 10%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
 }
-#mygallery {
-  
-  img {
-    height: 40vw;
-    object-fit: cover;
-    
-    @media (min-width: bootstrap-md) {
-      height: 25vw;
-    }
-    
-    @media (min-width: bootstrap-lg) {
-      height: 18vw;
-    }
-  }
-}
-/* Crop images in lightbox*/
-.carousel-item {
-  
-  img { height: 60vw;
-    object-fit: cover;
-    
-    @media (min-width: bootstrap-sm) {
-      height: 350px;
-    }
-  }
+html {
+  overflow-y: scroll; 
 }
 /*-----------------------------Joinus*/
 
@@ -395,58 +369,32 @@ border: 1px solid transparent;
     text-align: center;
 }
 
+/*-----------------------------Carousel*/
+.carousel-item{
 
+height: 60%;
+width: auto;
 
+}
 /*-----------------------------Contactus*/
 
 #contact h1 {
 
 margin: 0;
+text-align: center
 
 }
-
-.map-container-11 {
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-
-.map-container-11 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
-
-.map-container {
-
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height: 400px;
-width: 100%;
-background-color: #8D99AD;
-
-}
-.map-container iframe{
-left:0;
-top:0;
-height:400px;
-width:100%;
-padding-bottom: 10px;
-position:absolute;
-background-color: #8D99AD;
 
 }
 .md-form {
+    position: relative;
 padding-top: 10px;
 color: #fff;
 font-size: 20px;
 }
 
 .card {
+    object-position: center;
 background-color: #F0FBFC;
 background-position: center;
 background-repeat: no-repeat;
@@ -456,7 +404,7 @@ background-size: cover;
 /*-----------------------------footer*/
 
 footer {
-
+position: relative;
  flex-shrink: 0;
  width: 100%;
  background-color: #052C6E;
