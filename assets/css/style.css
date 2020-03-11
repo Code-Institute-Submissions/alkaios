@@ -504,8 +504,13 @@ margin: 0 auto;
 max-width: 40%;
              }
 
+             #contactus{
+
+    height: 800px;
+}
+
 footer{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 }
