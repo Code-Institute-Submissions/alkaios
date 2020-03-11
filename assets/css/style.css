@@ -124,7 +124,7 @@ background: url(../images/gym.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-min-height: 300px;
+min-height: 150px;
 transition: all 2s ease-in-out;
 -moz-transition: all 2s ease-in-out;
 -webkit-transition: all 2s ease-in-out;
@@ -298,29 +298,9 @@ border: 1px solid transparent;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    display: inline-block;
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-  .gallery img {
-  margin: 5%;
-  }
-}
 
-@media only screen and (max-width: 500px) {
-  .responsive {
-    display: inline-block;
-    width: 100%;
-    margin: 5%;
-  }
-    .gallery img {
-  margin: 20;
-  }
-}
 
-/*----------home carousel---------*/
+/*----------home slides---------*/
 
 @keyframes slidy {
 0% { left: 0%; }
@@ -341,11 +321,14 @@ div#slider figure img { width: 10%; float: left; }
 div#slider figure { 
   position: relative;
   width: 500%;
+  height: auto;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 25s slidy infinite both; 
+  animation-fill-mode: forwards;
+  animation: 25s slidy infinite; 
+  
  
   
 }
@@ -356,7 +339,7 @@ html {
 
 #joinus {
 
-    max-height: 100vh;
+    height: 100vh;
 
 }
 
@@ -378,11 +361,7 @@ html {
 
     font-weight: 600;
 }
-/*-----------------------------Carousel*/
-.carousel-item{
 
-height: 60%;
-width: auto;
 
 }
 /*-----------------------------Contactus*/
@@ -418,19 +397,6 @@ button[type="submit"] {
 
     margin-top: 20px;
 }
-
-/* ----------------------------------------Media Queries */
-
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-}
-
 /*-----------------------------footer*/
 
 footer {
@@ -483,10 +449,71 @@ scroll-padding-bottom: 15px;
 padding: 20px;
 
 }
+/* ----------------------------------------Media Queries */
+@media only screen and (max-width: 700px) {
+  .responsive {
+    display: inline-block;
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .gallery img {
+  margin: 5%;
+  }
+  footer {
 
-/*---------media queries---*/
+height: auto;
 
-/* smartphones, iPhone, portrait 480x320 phones */
+}
+}
+
+@media only screen and (max-width: 500px) {
+  
+
+.main-container{
+height: 100%; 
+width: auto;
+padding: 0;
+}
+  .responsive {
+    display: inline-block;
+    width: 100%;
+    margin: 5%;
+  }
+    .gallery img {
+  margin: 20;
+  }
+  footer {
+
+height: auto;
+
+}
+}
+@media(min-width: 992px) {
+    
+
+.main-container {
+height: 100%; 
+width: auto;
+padding: 0;
+}
+
+.center-form {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 45%;
+             }
+    footer {
+
+height: auto;
+
+}
+
+#home{
+    min-height:auto;
+}
+}
 
 @media (min-width:320px) { 
 
@@ -496,10 +523,30 @@ width: auto;
 padding: 0;
 }
 
-#footer-details {
+.center-form {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 130%;
+        margin: 0 auto;
+        width:auto;
 
-padding: 10px;
+}
+#home{
+    min-height: 90%;
+}
+.home-text{
 
+    height: 100%;
+    width: auto;
+}
+#home slider {
+
+    height: 100%;
+    width: auto;
+}
+#hometext{
+        height: 100%;
+    width: auto;
 }
 #gallery img {
     margin: 0;
@@ -508,5 +555,11 @@ padding: 10px;
 
     margin:0;
 }
+#slides{
+
+    padding-bottom: 5%;
+}
 
 }
+
+
