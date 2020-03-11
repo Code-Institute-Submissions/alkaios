@@ -18,7 +18,10 @@ height: 100%;
 body {
     margin-bottom: 150px;
     background-color: rgb(205, 207, 207);
+}
 
+html {
+  overflow-y: scroll; 
 }
 
 .header {
@@ -124,7 +127,7 @@ background: url(../images/gym.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-min-height: 150px;
+min-height: 100px;
 transition: all 2s ease-in-out;
 -moz-transition: all 2s ease-in-out;
 -webkit-transition: all 2s ease-in-out;
@@ -135,7 +138,7 @@ transition: all 2s ease-in-out;
     font-family: "Exo" sans-serif;
     font-weight: 300;
     font-size: 46px;
-    margin-top: 50px;
+    margin-top: 30px;
     color: #ffffff;
     text-align: left;
 }
@@ -145,8 +148,8 @@ transition: all 2s ease-in-out;
     font-family: "roboto", sans-serif;
     font-weight: 300;
     font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #FFA400;
     text-align: left;
     
@@ -297,7 +300,21 @@ border: 1px solid transparent;
   float: left;
   width: 24.99999%;
 }
+/*-----------------------------home*/
+#home h2  {
 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home-text{
+    margin: 10px;
+    
+}
+.home-text{
+
+    font-weight: 600;
+}
 
 
 /*----------home slides---------*/
@@ -317,7 +334,7 @@ border: 1px solid transparent;
 
 body { margin: 0; } 
 div#slider { overflow: hidden; }
-div#slider figure img { width: 10%; float: left; }
+div#slider figure img { width: 10%; float: left; transition: ease-in-out; }
 div#slider figure { 
   position: relative;
   width: 500%;
@@ -326,15 +343,12 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation-fill-mode: forwards;
   animation: 25s slidy infinite; 
   
  
   
 }
-html {
-  overflow-y: scroll; 
-}
+
 /*-----------------------------Joinus*/
 
 #joinus {
@@ -357,10 +371,6 @@ html {
     text-align: center;
 }
 
-.home-text{
-
-    font-weight: 600;
-}
 
 
 }
@@ -453,16 +463,57 @@ padding: 20px;
 
 /*----------media queries-------*/
 /* x-Small devices (portrait tablets and large phones, 320px and up) */
-@media only screen and (min-width: 320px) {...}
+@media only screen and (min-width: 320px) {
+
+#contactus{
+
+    height: 750px;
+}
+
+}
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+
+
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+
+
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+
+.main-container {
+height: 100%; 
+width: auto;
+padding: 0;
+}
+
+.center-form {
+padding-top: 30px;
+padding-bottom: 30px;
+min-height: 240px;
+margin: 0 auto;
+max-width: 40%;
+             }
+
+footer{
+    margin-bottom: 50px;
+}
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+
+
+
+}
 
