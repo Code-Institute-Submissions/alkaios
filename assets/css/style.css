@@ -297,7 +297,7 @@ border: 1px solid transparent;
   
   display: inline-block;
   padding: 0 6px;
-  float: left;
+  
   width: 24.99999%;
 }
 /*-----------------------------home*/
@@ -307,11 +307,11 @@ border: 1px solid transparent;
     margin-bottom: 10px;
 }
 
-#home-text{
+#home-text {
     margin: 10px;
     
 }
-.home-text{
+.home-text {
 
     font-weight: 600;
 }
@@ -373,7 +373,8 @@ div#slider figure {
 
 
 
-}
+
+
 /*-----------------------------Contactus*/
 
 #contact h1 {
@@ -469,7 +470,13 @@ padding: 20px;
 
     height: 750px;
 }
+#home{
 
+    height: 800px;
+}
+#footer{
+    margin: 0;
+}
 }
 
 
@@ -483,8 +490,24 @@ padding: 20px;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+#home {
 
+    height: 450px;
+    text-align: center;
+    width: 100%;
+}
+div#slider.col{
 
+    height: 450px;
+}
+#slider{
+    height: 450px;
+    margin-bottom: 0;
+}
+#footer{
+
+    margin: 0;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -504,9 +527,9 @@ margin: 0 auto;
 max-width: 40%;
              }
 
-             #contactus{
+#contactus{
 
-    height: 800px;
+height: 800px;
 }
 
 footer{
@@ -518,7 +541,12 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+#home {
 
-
+    height: 2000px;
 }
 
+#footer{
+
+    margin: 0;
+}
