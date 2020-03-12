@@ -349,6 +349,21 @@ div#slider figure {
   
 }
 
+
+
+/*-----------------------------Classes*/
+
+#classes {
+
+height: 600px;
+background-color: #F4FBFF;
+padding-bottom: 2.5rem;
+}
+#classes footer {
+
+    padding-top: 55px;;
+}
+
 /*-----------------------------Joinus*/
 
 #joinus {
@@ -545,7 +560,10 @@ footer{
 
     height: 2000px;
 }
+.gallery{
 
+    width: auto;
+}
 #footer{
 
     margin: 0;
