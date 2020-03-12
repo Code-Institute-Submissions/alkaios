@@ -297,7 +297,7 @@ border: 1px solid transparent;
   
   display: inline-block;
   padding: 0 6px;
-  
+  float: left;
   width: 24.99999%;
 }
 /*-----------------------------home*/
@@ -359,6 +359,7 @@ height: 600px;
 background-color: #F4FBFF;
 padding-bottom: 2.5rem;
 }
+
 #classes footer {
 
     padding-top: 55px;;
