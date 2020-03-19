@@ -313,39 +313,7 @@ border: 1px solid transparent;
 }
 
 
-/*----------home slides---------*/
-
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-
-}
-
-body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 10%; float: left; transition: ease-in-out; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  height: auto;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 25s slidy infinite; 
-  
- 
-  
-}
-
-
+/*----------home carousel---------*/
 
 /*-----------------------------Classes*/
 
@@ -441,16 +409,16 @@ scroll-padding-bottom: 15px;
 
 
 .social-links li a i {
-
-    width: 100px;
-    height: 30px;
+    margin: 5px;
+    width: 50px;
+    height: 40px;
     padding: 12px 0;
-    border-radius: 20%;
-    font-size: 25px;
-    line-height: 7px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 15px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #FFA400;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
