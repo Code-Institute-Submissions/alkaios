@@ -319,10 +319,17 @@ border: 1px solid transparent;
 /*-----------------------------Classes*/
 
 #classes {
-
+display: flex;
+    flex-direction: column;
 height: 600px;
 background-color: #fff;
 padding-bottom: 2.5rem;
+}
+
+#gallery{
+
+    display: flex;
+    flex-direction: column;
 }
 
 #classes footer {
@@ -454,6 +461,14 @@ padding: 20px;
 
     height: 890px;
 }
+
+.responsive {
+  height: auto;
+  display: inline-block;
+  padding: 0 6px;
+  float: left;
+  width: 99.99999%;
+}
 #footer{
     margin: 0;
 }
@@ -506,9 +521,7 @@ padding: 20px;
     height: 810px;
 
 }
-.responsive{
-padding: 0;
-}
+
 .carousel slide {
 
 height: 70%;
