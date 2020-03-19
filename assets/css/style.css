@@ -17,11 +17,7 @@ height: 100%;
 
 body {
     margin-bottom: 150px;
-    background-color: rgb(205, 207, 207);
-}
-
-html {
-  overflow-y: scroll; 
+    background-color:#fff;
 }
 
 .header {
@@ -356,7 +352,7 @@ div#slider figure {
 #classes {
 
 height: 600px;
-background-color: #F4FBFF;
+background-color: #fff;
 padding-bottom: 2.5rem;
 }
 
@@ -428,7 +424,7 @@ button[type="submit"] {
 
 footer {
 
-position: fixed;
+position: relative;
 bottom: 0;
 max-height: auto;
 background-color: #052C6E;
