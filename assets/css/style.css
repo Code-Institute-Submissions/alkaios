@@ -42,7 +42,7 @@ flex-grow: 1;
 }
 
 
-}
+
 
 /*-----------------------------general/margins/text/padding/etc.*/
 
@@ -100,9 +100,10 @@ background-color: #29497F;
 
 .ui-menu-color-classes {
 
-background-color: #1049A9   ;
+background-color: #1049A9;
 
 }
+
 .ui-menu-color-contact {
 
 background-color: #6A92D4;
@@ -229,7 +230,7 @@ margin: 0;
 
 	.after, .before {
 
-    height:50px;
+    height: 50px;
     background-color: gray;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -326,7 +327,7 @@ padding-bottom: 2.5rem;
 
 #classes footer {
 
-    padding-top: 55px;;
+    padding-top: 55px;
 }
 
 /*-----------------------------Joinus*/
@@ -360,7 +361,7 @@ padding-bottom: 2.5rem;
 #contact h1 {
 
 margin: 0;
-text-align: center
+text-align: center;
 
 }
 
@@ -392,14 +393,14 @@ button[type="submit"] {
 
 footer {
 
-position: relative;
-bottom: 0;
-max-height: auto;
-background-color: #052C6E;
-color: #fafafa;
+    clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    background-color: #052C6E;
+    color: #fafafa;
 
-
-}
+    }
 
 .social-links {
 
@@ -431,7 +432,6 @@ scroll-padding-bottom: 15px;
     background: red;
 
 }
-
 
 
 
@@ -486,6 +486,7 @@ padding: 20px;
     height: 810px;
 }
 #footer{
+
     margin: 0;
 }
 }
@@ -502,22 +503,19 @@ padding: 20px;
 
 #home {
 
-    height: 200px;
+    height: 810px;
 
 }
-div#slides.row{
-    height: 200px;
+.responsive{
+padding: 0;
 }
-div#slider.col{
+.carousel slide {
 
-    height: 300px;
-}
-#slider{
-    height: 450px;
-    margin-bottom: 0;
+height: 70%;
+
 }
 #footer{
-
+    height: auto;
     margin: 0;
 }
 }
