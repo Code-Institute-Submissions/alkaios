@@ -318,23 +318,15 @@ border: 1px solid transparent;
 
 /*-----------------------------Classes*/
 
-#classes {
-display: flex;
-    flex-direction: column;
-height: 600px;
-background-color: #fff;
-padding-bottom: 2.5rem;
-}
-
-#gallery{
-
-    display: flex;
-    flex-direction: column;
-}
 
 #classes footer {
 
-    padding-top: 55px;
+    padding-top: 20px;
+
+    margin-bottom: 0;
+}
+#footer-details{
+padding-bottom: 0;
 }
 
 /*-----------------------------Joinus*/
@@ -406,6 +398,7 @@ footer {
     margin-top: -100px;
     background-color: #052C6E;
     color: #fafafa;
+    margin: 0;
 
     }
 
