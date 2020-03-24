@@ -406,8 +406,8 @@ scroll-padding-bottom: 15px;
     font-size: 30px;
     line-height: 15px;
     text-align: center;
-    color: #fafafa;
- 
+    color: #fff;
+    background: transparent; 
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -417,7 +417,7 @@ scroll-padding-bottom: 15px;
 
 .social-links li a i:hover {
 
-    background: red;
+    background: #FFA400;
 
 }
 
