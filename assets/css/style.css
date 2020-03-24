@@ -329,31 +329,16 @@ border: 1px solid transparent;
 padding-bottom: 0;
 }
 
-/*-----------------------------Joinus*/
-
-#joinus {
-
-    height: 100vh;
-
-}
-
-#joinus h2 {
-
-    font-size: 40px;
-    font-style: bold;
-    text-align: center;
-    padding-top: 50px;
-
-}
-
-#joinus p {
-
-    text-align: center;
+/*-----------------------------Media*/
+#clips div .view{
+    width: 100%;
 }
 
 
-
-
+#video-carousel{
+    margin: 0;
+    width: 100%;
+}
 
 /*-----------------------------Contactus*/
 
@@ -422,7 +407,7 @@ scroll-padding-bottom: 15px;
     line-height: 15px;
     text-align: center;
     color: #fafafa;
-    background: #FFA400;
+ 
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
