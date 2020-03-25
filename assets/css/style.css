@@ -16,7 +16,7 @@ height: 100%;
 }
 
 body {
-    margin-bottom: 150px;
+    
     background-color:#fff;
 }
 
@@ -330,10 +330,16 @@ padding-bottom: 0;
 }
 
 /*-----------------------------Media*/
-#clips div .view{
+.view {
+
     width: 100%;
+    margin: 0;
 }
 
+video .video-fluid{
+
+    width: auto;
+}
 
 #video-carousel{
     margin: 0;
