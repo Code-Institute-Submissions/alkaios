@@ -389,10 +389,10 @@ footer {
     clear: both;
     position: relative;
     height: 100px;
-    margin-top: -100px;
+    margin: -100px 0px 0px 0px;
     background-color: #052C6E;
     color: #fafafa;
-    margin: 0;
+    
 
     }
 
