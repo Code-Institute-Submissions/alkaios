@@ -16,8 +16,9 @@ height: 100%;
 }
 
 body {
-    
-    background-color:#fff;
+display:flex; 
+flex-direction:column; 
+background-color:#fff;
 }
 
 .header {
@@ -389,10 +390,11 @@ footer {
     clear: both;
     position: relative;
     height: 100px;
-    margin: -100px 0px 0px 0px;
+    width: 100%;
+    margin-top: auto;
     background-color: #052C6E;
     color: #fafafa;
-    
+  
 
     }
 
@@ -458,6 +460,8 @@ padding: 20px;
 }
 #footer{
     margin: 0;
+    height: auto;
+    width: auto;
 }
 }
 
@@ -473,6 +477,7 @@ padding: 20px;
     height: 830px;
 }
 #footer{
+        height: auto;
     margin: 0;
 }
 }
@@ -488,15 +493,20 @@ padding: 20px;
     height: 810px;
 }
 #footer{
-
     margin: 0;
+    height: auto;
+    width: auto;
 }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-
+#footer{
+    margin: 0;
+    height: auto;
+    width: auto;
+}
 
 }
 
@@ -515,8 +525,9 @@ height: 70%;
 
 }
 #footer{
-    height: auto;
     margin: 0;
+    height: auto;
+    width: auto;
 }
 }
 
@@ -543,8 +554,10 @@ max-width: 40%;
 height: 800px;
 }
 
-footer{
-    margin-bottom: 20px;
+#footer{
+    margin: 0;
+    height: auto;
+    width: auto;
 }
 
 }
@@ -566,6 +579,8 @@ height: 150px;
 
 }
 #footer{
-height: 90px;
     margin: 0;
+    height: auto;
+    width: auto;
+}
 }
