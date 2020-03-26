@@ -314,7 +314,10 @@ border: 1px solid transparent;
     font-weight: 600;
 }
 
+#carousel1{
 
+    height: 80vh;
+}
 /*-----------------------------Classes*/
 
 
@@ -544,7 +547,11 @@ padding: 20px;
 
     height: 1020px;
 }
+.menucontainer {
 
+    font-size: 0;
+
+}
 .carousel slide {
 
 height: 70%;
