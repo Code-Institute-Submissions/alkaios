@@ -444,7 +444,7 @@ padding: 20px;
 
 #contactus{
 
-    height: 750px;
+    height: 850px;
 }
 #home{
 
@@ -458,15 +458,17 @@ padding: 20px;
   float: left;
   width: 100%;
 }
-
+.center-form{
+    margin-bottom: 100px;
+}
 .social-links li a i {
-    margin: 4px;
-    width: 30px;
-    height: 20px;
+    margin: 5px;
+    width: 45px;
+    height: 35px;
     padding: 8px 0;
     border-radius: 50%;
     font-size: 25px;
-    line-height: 10px;
+    line-height: 13px;
     text-align: center;
     color: #fff;
     background: transparent;
@@ -474,6 +476,7 @@ padding: 20px;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+
 
 }
 
