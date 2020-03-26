@@ -463,12 +463,12 @@ padding: 20px;
 }
 .social-links li a i {
     margin: 5px;
-    width: 45px;
-    height: 35px;
-    padding: 8px 0;
+    width: 30px;
+    height: 30px;
+    padding: 10px 0;
     border-radius: 50%;
-    font-size: 25px;
-    line-height: 13px;
+    font-size: 20px;
+    line-height: 10px;
     text-align: center;
     color: #fff;
     background: transparent;
@@ -483,11 +483,11 @@ padding: 20px;
 #footer{
     margin: 0;
     height: auto;
-    width: auto;
+    width: 100%;
 }
 }
 
-/* x-Small devices (portrait tablets and large phones, 375px and up) */
+/* Small devices (portrait tablets and large phones, 375px and up) */
 @media only screen and (min-width: 375px) {
 
 #contactus{
@@ -522,7 +522,7 @@ padding: 20px;
 }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* x-Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
 #footer{
