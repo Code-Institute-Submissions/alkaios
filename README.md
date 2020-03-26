@@ -1,38 +1,53 @@
-# User-Centric-Milestone-Project1 - ALKAIOS
-
-
+# User Centric Frontend Development Milestone Project - ALKAIOS
 
 ##UX
 
+Mobile first approach to a responsive design.
+
 ### Users
 
-Expected users of the website include Fitness enthusiasts and fitness newcommers looking for classes and information on schedules.
+Expected users of the website include Fitness enthusiasts and fitness newcommers looking for classes and information.
 
 
 ### User Stories
-1. A user wants to learn more about class duration and times from the schedule
-2. A user requires info on class types held
-3. A user requires information on the gym's location, opening hours, contact details and membership fees.
+1. A user wants to learn more about classes held. 
+2. A user requires information on the gym's look and feel with a view to becomming a member.
 
 ## Design
 
 - 3 page site with nav bar. 
 - Colour scheme consists of complementary colours.
-- Logo is a custom Design.
+- #052C6E  #29497F  #1049A9  #6A92D4  #FFA400
 - Roboto  and Exo fonts used throughout the website.
 - font-family: Roboto,Exo , sans-serif;
+
+
  
 ## Planned Features
 
-- Bootstrap - HTML, CSS Framework
-- Grid System - Columns and Rows
-- images
-- Responsive design - Mobile First
-- UX elements
-- Animations/Transitions
-- Git - Version Control System
-- GitHub - Remote Repository
-- Deployed - Hosted on Github Pages
+Colour Scheme
+Logo
+
+--Bootstrap - HTML, CSS Framework
+Grid 
+Cards
+Carousel
+Modal
+
+Responsive design - Mobile First
+--UX elements
+User Flow
+Animations
+Transitions
+
+Git - Version Control System
+GitHub - Remote Repository
+Deployed - Hosted on Github Pages
+
+Payment gateway for membership portal
+Full Schedule calendar for classes.
+
+
 
 ## Existing Features
 
@@ -49,6 +64,7 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 
 ### Features Left to Implement
 - Payment gateway for membership portal
+- full Schedule for classes.
 
 ## Deployment
 -The project is hosted on [GitHub Pages]
@@ -73,15 +89,16 @@ Expected users of the website include Fitness enthusiasts and fitness newcommers
 
 A benefit of hosting the website on GitHub pages is any pushed changes to the project are updated on the website. 
 Development branches can be created and merged to the master when complete.
-some changes can be a little bit slow
+some changes can be a little bit slow and causes some frustration.
 
-During development the site is written using Gitpod.
+During development the site was written using Gitpod.
 
 ## Credits
 
 ### Content
 The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
 The Contact page has been adapted from an idea on https://mdbootstrap.com/
+The Media page has been adapted from an idea on https://mdbootstrap.com/
 
 ### Media
 Some of the images for the website are taken from:
@@ -91,8 +108,6 @@ Some of the images for the website are taken from:
 
 
 ## Acknowledgements
-Thank you to the following for inspiration, motivation and the direction I needed:
-
-- Seun Owonikoko    @seun_mentor
-
--My 9 yr old son Tomás for being impressed and keeping me motivated.
+Thank you to  - Seun Owonikoko  @seun_mentor for the direction I needed.
+Also to my 9 yr old son Tomás for being impressed and keeping me motivated.
+Code Institute for allowing me to extend the project time to accommodate a busy work period
