@@ -451,6 +451,10 @@ padding: 20px;
 
     height: 890px;
 }
+#carousel1 {
+    height: auto;
+    width: auto;
+}
 
 .responsive {
   height: auto;
@@ -521,7 +525,11 @@ padding: 20px;
     height: auto;
     width: auto;
 }
+
+#classes{
+    height: auto%;
 }
+
 
 /* x-Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -545,7 +553,7 @@ padding: 20px;
 
 #classes{
 
-    height: 1020px;
+    height: 1184px;
 }
 .menucontainer {
 
