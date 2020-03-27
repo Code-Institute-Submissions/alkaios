@@ -548,6 +548,9 @@ padding: 20px;
 #header{
     width: 100%;
 }
+.logo{
+    height: auto;
+}
 #home {
     height: 810px;
 }
