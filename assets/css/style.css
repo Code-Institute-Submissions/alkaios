@@ -481,10 +481,10 @@ padding: 20px;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
-
 }
-
+#hometext2{
+    display: none;
+}
 #footer{
     margin: 0;
     height: auto;
