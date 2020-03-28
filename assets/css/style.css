@@ -556,7 +556,7 @@ height: auto;
 }
 
 .menuitem {
-    width: 99%;
+    
     height: 100px;
     text-align: center;
     padding: 0;
@@ -574,7 +574,7 @@ height: auto;
 
 #classes{
 
-    height: 1000px;
+    height: auto;
 }
 .menucontainer {
 
