@@ -556,7 +556,7 @@ height: auto;
 }
 
 .menuitem {
-    
+    width: 99%;
     height: 100px;
     text-align: center;
     padding: 0;
