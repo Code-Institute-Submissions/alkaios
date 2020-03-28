@@ -263,41 +263,7 @@ h1 {
 
 /*-----------------------------classes*/
 
-.gallery {
-border: 1px solid transparent;  
-}
 
-.gallery:hover {
-  border: 1px solid transparent;
-}
-
-.gallery img {
- 
-  width: 100%;
-  height: auto;
-  
-}
-
-.desc {
-
- padding-top: 10%;
- height: 90%;
- width: 90%;
- text-align: center;
-}
-.desc h5{
-    padding-bottom: 10%;
-}
-
-
-
-.responsive {
-  
-  display: inline-block;
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
 /*-----------------------------home*/
 #home h2  {
 
@@ -330,6 +296,41 @@ border: 1px solid transparent;
 #footer-details{
 padding-bottom: 0;
 }
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+
 
 /*-----------------------------Media*/
 .view {
@@ -527,12 +528,12 @@ padding: 20px;
 }
 
 .center-form{
-    margin-bottom: 500px;
+    margin-bottom: 300px;
 }
 
 #classes {
 
-height: auto;
+height: auto%;
 
 }
 
@@ -549,56 +550,15 @@ height: auto;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-   .logo {
 
-background: url(../images/gym.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 100px;
-max-height: 15vh;
-transition: all 2s ease-in-out;
--moz-transition: all 2s ease-in-out;
--webkit-transition: all 2s ease-in-out;
-}
-
- .menucontainer {
-    font-size: 0;
-    
-}
-
-.menuitem {
-    
-    height: 100px;
-    text-align: center;
-    padding: 0;
-
-}
-
-#header{
-    height: 15vh;
-    width: 100%;
-}
-
-#home {
-    height: 810px;
-}
-
-#classes{
-
-height: 100%
-}
-
-.carousel slide {
-
-height: 70%;
-
-}
-#footer{
-    margin: 0;
-    height: auto;
-    width: auto;
-}
+.center-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 300px;
+    margin: 0 auto;
+    max-width: 30%;
+             }
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
