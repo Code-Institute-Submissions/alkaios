@@ -14,6 +14,7 @@ html, body {
 }
 
 body {
+    min-height: 100%;
     display:flex; 
     flex-direction:column; 
     background-color:#fff;
@@ -21,7 +22,7 @@ body {
 
 .header {
     margin: 0;
-    height: 15vh;
+    height: 150xp;
     flex-shrink: 0;
     }
 
@@ -62,7 +63,7 @@ h1,h2,h3,h4,h5 {
     }
 
 
-/*-----------------------------colors*/
+/*---------------------------------------------------------------colors*/
 
 
 .bg-color-name-moto {
@@ -84,14 +85,14 @@ h1,h2,h3,h4,h5 {
 .ui-menu-color-contact {
     background-color: #6A92D4;
     }
-    
+
 .ui-menu-color-membership {
     background-color: #FFA400;
     }
 
-/*-----------------------------colors*/
+/*----------------------------------------------------------colors*/
 
-/*-----------------------------header*/
+/*----------------------------------------------------------header*/
 
 .logo {
     background: url(../images/gym.jpg);
@@ -172,9 +173,9 @@ h1,h2,h3,h4,h5 {
     letter-spacing: 2px;
     }
 
-/*-----------------------------header*/
+/*----------------------------------------------------------header*/
 
-/*-----------------------------hover.css*/
+/*----------------------------------------------------------hover.css*/
 
 .hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
@@ -188,8 +189,10 @@ h1,h2,h3,h4,h5 {
     margin-top: 10px;
     margin-bottom: 10px;
     }
+/*----------------------------------------------------------hover.css*/
 
 
+/*-----------------------------------------------------------home*/
 .container-fluid {
     padding-right: 0;
     padding-left: 0; 
@@ -206,7 +209,7 @@ h1 {
     }
 
 
-/*-----------------------------home*/
+
 #home h2  {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -223,14 +226,19 @@ h1 {
 #carousel1{
     height: 80vh;
     }
+/*-----------------------------------------------------------home*/
 
-/*-----------------------------Classes*/
+/*-----------------------------------------------------------Classes*/
 
 #classes footer {
     padding-top: 20px;
     margin-bottom: 0;
     }
-
+.d-flex {
+    margin: 0;
+    max-height: 80%;
+    width: 100%;
+}
 #footer-details{
     padding-bottom: 0;
     }
@@ -250,7 +258,7 @@ h1 {
     -ms-transform: scale(1);
     transform: scale(1);
     }
-}
+
 
 @media (max-width: 450px) {
 .gallery {
@@ -263,16 +271,10 @@ h1 {
     }
 }
 
-@media (max-width: 400px) {
-.btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-    }
-}
 
+/*-----------------------------------------------------------Classes*/
 
-
-/*-----------------------------Media*/
+/*------------------------------------------------------------Media*/
 .view {
     width: 100%;
     margin: 0;
@@ -287,7 +289,10 @@ video .video-fluid{
     width: 100%;
     }
 
-/*-----------------------------Contactus*/
+/*------------------------------------------------------------Media*/
+
+
+/*------------------------------------------------------------Contactus*/
 
 #contact h1 {
     margin: 0;
@@ -320,15 +325,15 @@ button[type="submit"] {
 .btn {
     margin-top: 20px;
     }
+/*------------------------------------------------------------Contactus*/
 
-/*-----------------------------footer*/
+/*------------------------------------------------------------footer*/
 
 footer {
     clear: both;
     position: relative;
     height: 100px;
-    width: 100%;
-    margin-top: auto;
+    margin-top: -100px;
     background-color: #052C6E;
     color: #fafafa;
     }
