@@ -1,48 +1,58 @@
-# User Centric Frontend Development Milestone Project - ALKAIOS
+
+
+# User Centric Frontend Development Milestone Project - alkaios
+
+Alkaios Strength through fitness. A comunity orientated gymnasium for all, regardless of ability or fitness levels.
 
 ##UX
-
-Mobile first approach to a responsive design.
+A four page site incorporating a custom logo and navigation bar, with a responsive design.
 
 ### Users
 
-Expected users of the website include Fitness enthusiasts and fitness newcommers looking for classes and information.
-
+1. Expected users of the website include Fitness enthusiasts 
+2. Fitness newcommers looking for classes
+3. Fitness newcommers looking for information on the gym
+4. Users looking for pictures of the gyms facilities
 
 ### User Stories
+
 1. A user wants to learn more about classes held. 
 2. A user requires information on the gym's look and feel with a view to becomming a member.
+3. A user wants to contact the gym about special requirements.
+4. A user needs information on the gyms location
+
 
 ## Design
 
-- 3 page site with nav bar. 
-- Colour scheme consists of complementary colours.
-- #052C6E  #29497F  #1049A9  #6A92D4  #FFA400
+- 4 page site with nav bar. 
 - Roboto  and Exo fonts used throughout the website.
 - font-family: Roboto,Exo , sans-serif;
+- Colour scheme consists of complementary colours.
+- ![#052C6E](https://placehold.it/15/f03c15/000000?text=+) `#052C6E`
+- ![#29497F](https://placehold.it/15/f03c15/000000?text=+) `#29497F`
+- ![#1049A9](https://placehold.it/15/f03c15/000000?text=+) `#1049A9`
+- ![#FFA400](https://placehold.it/15/f03c15/000000?text=+) `#FFA400`
 
-
- 
 ## Planned Features
 
-Colour Scheme
-Logo
+1. Logo
+2. Moto
+3. Colour Scheme
+4. Bootstrap 4, HTML 5, CSS 3 Framewor
+4. Grid 
+4. Cards
+4. Carousel
+4. Modal
+5. Responsive design - Mobile First
 
---Bootstrap - HTML, CSS Framework
-Grid 
-Cards
-Carousel
-Modal
 
-Responsive design - Mobile First
---UX elements
+## UX elements
 User Flow
 Animations
 Transitions
-
 Git - Version Control System
 GitHub - Remote Repository
-Deployed - Hosted on Github Pages
+Deployed and Hosted on https://s10n.Github.io/alkaios [Github Pages]
 
 Payment gateway for membership portal
 Full Schedule calendar for classes.
