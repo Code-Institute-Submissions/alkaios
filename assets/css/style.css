@@ -215,7 +215,8 @@ h1 {
     margin-bottom: 10px;
 }
 
-#home-text {
+#hometext {
+    max-height: 200px;
     margin: 10px;
     }
 
@@ -223,53 +224,57 @@ h1 {
     font-weight: 600;
     }
 
-#carousel1{
-    height: 80vh;
+.carousel1 {
+    height:75vh;
     }
+
+.carousel-inner .item img {
+    height:75vh;
+    width: 100%;
+    object-fit: contain;
+    
+    }
+    
 /*-----------------------------------------------------------home*/
 
 /*-----------------------------------------------------------Classes*/
+#classes{
+    width: 100%;
+    height: auto;
+}
+#classes .row {
+width: 100%;
 
-#classes footer {
-    padding-top: 20px;
-    margin-bottom: 0;
-    }
-.d-flex {
-    margin: 0;
-    max-height: 80%;
+}
+#classes h5 {
+    color: #000;
+
+}
+
+#classes .d-flex{
+    height: auto;
     width: 100%;
 }
+#classes .flex-column {
+    max-width: 30%;
+    }
+
+#classes img {
+    margin: 15px 5px 5px 5px;
+    }
+
+#classes footer {
+    position: relative;
+    margin-top: 300px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    }	
+
 #footer-details{
     padding-bottom: 0;
     }
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%; }
-    .gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease; }
-    .gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    }
 
-
-@media (max-width: 450px) {
-.gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-    }
-}
 
 
 /*-----------------------------------------------------------Classes*/
@@ -381,6 +386,12 @@ scroll-padding-bottom: 15px;
     height: 890px;
 }
 
+#classes{
+
+margin-left: 25px;
+    }
+
+
 #carousel1 {
     height: auto;
     width: auto;
@@ -413,9 +424,7 @@ scroll-padding-bottom: 15px;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     }
-#hometext2{
-    display: none;
-    }
+
 #footer{
     margin: 0;
     height: auto;
@@ -459,6 +468,7 @@ scroll-padding-bottom: 15px;
 
 .center-form{
     margin-bottom: 300px;
+    margin-left: 80px;
     }
 
 #classes {
@@ -508,17 +518,17 @@ scroll-padding-bottom: 15px;
     }
 
 #contactus{
-    height: 800px;
+    height: auto;
     }
 
 #media{
     display: flex;
     flex-direction: column;
-    height: 1200;
+    height: 1000;
     }
 
 #classes{
-    height: 1000px;
+    height: 1100px;
     }
 
 #footer{
@@ -539,8 +549,10 @@ scroll-padding-bottom: 15px;
     }
 
 #contactus {
-    height: 1000px;
+    height: 1200px;
     }
+
+
 }
 
 
@@ -555,16 +567,11 @@ scroll-padding-bottom: 15px;
     height: 200px;
     }
 
-p#hometext.home-text{
-    height: 150px;
-    }
 
-#classes .card-group{
-    height: 50%;
-    }
+
 
 #classes{
-    height: 750px;
+    height:auto;
     }
 
 #footer{

@@ -94,12 +94,10 @@ some changes can be a little bit slow and causes some frustration.
 During development the site was written using Gitpod.
 
 ## Credits
-
-### Content
 The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
 The Contact page has been adapted from an idea on https://mdbootstrap.com/
 The Media page has been adapted from an idea on https://mdbootstrap.com/
-
+The classes page was adapted from an idea on https://ashleydw.github.io/lightbox/#image-gallery
 ### Media
 Some of the images for the website are taken from:
 -wwww.svfitness.com
