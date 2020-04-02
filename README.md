@@ -2,7 +2,7 @@
 
 # User Centric Frontend Development Milestone Project - alkaios
 
-Alkaios Strength through fitness. A comunity orientated gymnasium for all, regardless of ability or fitness levels.
+Alkaios Strength through fitness. A community orientated gymnasium for all, regardless of ability or fitness levels.
 
 ##UX
 A four page site incorporating a custom logo and navigation bar, with a responsive design.
@@ -10,14 +10,14 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 ### Users
 
 1. Expected users of the website include Fitness enthusiasts 
-2. Fitness newcommers looking for classes
-3. Fitness newcommers looking for information on the gym
+2. Fitness newcomers looking for classes
+3. Fitness newcomers looking for information on the gym
 4. Users looking for pictures of the gyms facilities
 
 ### User Stories
 
 1. A user wants to learn more about classes held. 
-2. A user requires information on the gym's look and feel with a view to becomming a member.
+2. A user requires information on the gym's look and feel with a view to becoming a member.
 3. A user wants to contact the gym about special requirements.
 4. A user needs information on the gyms location
 
@@ -26,7 +26,7 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 
 - 4 page site with nav bar. 
 - Roboto  and Exo fonts used throughout the website.
-- font-family: Roboto,Exo , sans-serif;
+- font-family: Roboto, Exo , sans-serif as a fall back.
 - Colour scheme consists of complementary colours.
 - ![#052C6E](https://placehold.it/15/f03c15/000000?text=+) `#052C6E`
 - ![#29497F](https://placehold.it/15/f03c15/000000?text=+) `#29497F`
@@ -38,7 +38,7 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 1. Logo
 2. Moto
 3. Colour Scheme
-4. Bootstrap 4, HTML 5, CSS 3 Framewor
+4. Bootstrap 4, HTML 5, CSS 3 Framework
 4. Grid 
 4. Cards
 4. Carousel
@@ -52,47 +52,41 @@ Animations
 Transitions
 Git - Version Control System
 GitHub - Remote Repository
-Deployed and Hosted on https://s10n.Github.io/alkaios [Github Pages]
-
-Payment gateway for membership portal
-Full Schedule calendar for classes.
-
+Deployed and Hosted on https://s10n.Github.io/alkaios [GitHub Pages]
 
 
 ## Existing Features
 
-- Bootstrap - HTML, CSS Framework
-- Grid System - Columns and Rows
-- images
-- Responsive design - Mobile First
-- UX elements
-- Animations/Transitions
-- Git - Version Control System
-- GitHub - Remote Repository
-- Deployed - Hosted on Github Pages
+1. Bootstrap - HTML, CSS Framework
+2. Grid System - Columns and Rows
+3. images
+4. Responsive design - Mobile First
+5. UX elements
+6. Animations/Transitions
+7. Git - Version Control System
+8. GitHub - Remote Repository
+9. Deployed - Hosted on GitHub Pages
 
 
 ### Features Left to Implement
-- Payment gateway for membership portal
-- full Schedule for classes.
+1. Payment gateway for membership portal
+2. full calendar Schedule for classes.
 
 ## Deployment
--The project is hosted on [GitHub Pages]
-
--The process involved:
+- The project is hosted on [GitHub Pages]
+- The process involved:
 - Host a git repository on GitHub. Explained 
 - The root folder contains README.md and index.html files
 - On GitHub repository settings page move to GitHub Pages section
 - Change source to master branch. (Or any desired branch)
-- Provided link will be your projects home (index) page.
- 
+- Provided link will be your projects home (index) page. 
 - To deploy your own version of the website:
 - Have git installed
 - Visit the repository
 - Click 'Clone or download' and copy the code for http
 - Open your chosen IDE (Cloud9, Gitpod, etc.)
 - Open a terminal in your root directory
-- Type 'git clone ' followed by the code taken from github repository
+- Type 'git clone ' followed by the code taken from GitHub repository
 - When this completes you have your own version of the website
 - Feel free to make any changes to it
 - The website can be run by opening one of the HTML files within a web browser
@@ -103,12 +97,13 @@ some changes can be a little bit slow and causes some frustration.
 
 During development the site was written using Gitpod.
 
-## Credits
-The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
-The Contact page has been adapted from an idea on https://mdbootstrap.com/
-The Media page has been adapted from an idea on https://mdbootstrap.com/
-The classes page was adapted from an idea on https://ashleydw.github.io/lightbox/#image-gallery
-### Media
+# Credits
+- The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
+- The Contact page has been adapted from an idea on https://mdbootstrap.com/
+- The Media page has been adapted from an idea on https://mdbootstrap.com/
+- The classes page was adapted from an idea on https://ashleydw.github.io/lightbox/#image-gallery
+
+## Media
 Some of the images for the website are taken from:
 -wwww.svfitness.com
 -www.dlrleisure.ie
@@ -116,6 +111,7 @@ Some of the images for the website are taken from:
 
 
 ## Acknowledgements
-Thank you to  - Seun Owonikoko  @seun_mentor for the direction I needed.
-Also to my 9 yr old son Tomás for being impressed and keeping me motivated.
 Code Institute for allowing me to extend the project time to accommodate a busy work period
+Thank you to  - Seun Owonikoko  @seun_mentor for the direction I needed.
+Also to my 9 yr. old son Tomás for being impressed and keeping me motivated.
+
