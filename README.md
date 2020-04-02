@@ -28,10 +28,10 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 - Roboto  and Exo fonts used throughout the website.
 - font-family: Roboto, Exo , sans-serif as a fall back.
 - Colour scheme consists of complementary colours.
-- ![#052C6E](https://placehold.it/15/f03c15/000000?text=+) `#052C6E`
-- ![#29497F](https://placehold.it/15/f03c15/000000?text=+) `#29497F`
-- ![#1049A9](https://placehold.it/15/f03c15/000000?text=+) `#1049A9`
-- ![#FFA400](https://placehold.it/15/f03c15/000000?text=+) `#FFA400`
+- ![#052C6E](https://placehold.it/15/#052C6E/000000?text=+) `#052C6E`
+- ![#29497F](https://placehold.it/15/#29497F/000000?text=+) `#29497F`
+- ![#1049A9](https://placehold.it/15/#1049A9/000000?text=+) `#1049A9`
+- ![#FFA400](https://placehold.it/15/FFA400/000000?text=+) `#FFA400`
 
 ## Planned Features
 
