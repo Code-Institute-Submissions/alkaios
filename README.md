@@ -38,12 +38,14 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 1. Logo
 2. Moto
 3. Colour Scheme
-4. Bootstrap 4, HTML 5, CSS 3 Framework
-  4a. Grid 
-  4b. Cards
-  4c. Carousel
-  4d. Modal
-5. Responsive design - Mobile First
+4. HTML 5
+5. CSS 3
+5. Bootstrap 4
+  a. Grid 
+  b. Cards
+  c. Carousel
+  d. Modal
+6. Responsive design - Mobile First
 
 
 ## UX elements
