@@ -47,12 +47,12 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 
 
 ## UX elements
-User Flow
-Animations
-Transitions
-Git - Version Control System
-GitHub - Remote Repository
-Deployed and Hosted on https://s10n.Github.io/alkaios [GitHub Pages]
+- User Flow
+- Animations
+- Transitions
+- Git - Version Control System
+- GitHub - Remote Repository
+- Deployed and Hosted on https://s10n.Github.io/alkaios GitHub Pages
 
 
 ## Existing Features
