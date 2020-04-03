@@ -50,24 +50,25 @@ Expected users of the website include:
 3. Colour Scheme
 4. HTML 5
 5. CSS 3
-5. Bootstrap 4
+6. Bootstrap 4
   * Grid 
   * Cards
   * Carousel
   * Modal
-6. Responsive design - Mobile First
+7. Responsive design - Mobile First
 
 ## Existing Features
-
-1. Bootstrap - HTML, CSS Framework
-2. Grid System - Columns and Rows
-3. images
-4. Responsive design - Mobile First
-5. UX elements
-6. Animations/Transitions
-7. Git - Version Control System
-8. GitHub - Remote Repository
-9. Deployed - Hosted on GitHub Pages
+1. HTML 5
+2. CSS 3
+3. Bootstrap 
+4. Grid System - Columns and Rows
+5. images
+6. Responsive design - Mobile First
+7. UX elements
+8. Animations/Transitions
+9. Git - Version Control System
+10. GitHub - Remote Repository
+11. Deployed - Hosted on GitHub Pages
 
 
 ## Features Left to Implement
