@@ -5,11 +5,12 @@
 Alkaios Strength through fitness. A community orientated gymnasium for all, regardless of ability or fitness levels.
 
 ## UX
-![Responsive Views of Home Page] (documentation/Am I Responsive.docx)
+![Responsive Views of Home Page] (https://s10n.github.io/alkaios/documentation/Am I Responsive.docx)
 
 ### Users
 
-1. Expected users of the website include Fitness enthusiasts 
+Expected users of the website include:
+1. Fitness enthusiasts 
 2. Fitness newcomers looking for classes
 3. Fitness newcomers looking for information on the gym
 4. Users looking for pictures of the gyms facilities
