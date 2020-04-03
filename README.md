@@ -4,7 +4,7 @@
 
 Alkaios Strength through fitness. A community orientated gymnasium for all, regardless of ability or fitness levels.
 
-##UX
+## UX
 A four page site incorporating a custom logo and navigation bar, with a responsive design.
 
 ### Users
@@ -70,7 +70,7 @@ A four page site incorporating a custom logo and navigation bar, with a responsi
 9. Deployed - Hosted on GitHub Pages
 
 
-### Features Left to Implement
+## Features Left to Implement
 1. Payment gateway for membership portal
 2. full calendar Schedule for classes.
 
@@ -100,20 +100,20 @@ some changes can be a little bit slow and causes some frustration.
 During development the site was written using Gitpod.
 
 # Credits
-- The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
-- The Contact page has been adapted from an idea on https://mdbootstrap.com/
-- The Media page has been adapted from an idea on https://mdbootstrap.com/
-- The classes page was adapted from an idea on https://ashleydw.github.io/lightbox/#image-gallery
+1. The text on the website has been copied and edited from:  https://dlrleisure.ie/dlr-leisure-monkstown/ 
+2. The Contact page has been adapted from an idea on https://mdbootstrap.com/
+3. The Media page has been adapted from an idea on https://mdbootstrap.com/
+4. The classes page was adapted from an idea on https://ashleydw.github.io/lightbox/#image-gallery
 
 ## Media
 Some of the images for the website are taken from:
--wwww.svfitness.com
--www.dlrleisure.ie
--www.perpetua.ie
+1. http://www.svfitness.com
+2. http://www.dlrleisure.ie
+3. http://www.perpetua.ie
 
 
 ## Acknowledgements
-Code Institute for allowing me to extend the project time to accommodate a busy work period
+Code Institute for allowing me to extend the project time to accommodate a busy work period.
 Thank you to  - Seun Owonikoko  @seun_mentor for the direction I needed.
 Also to my 9 yr. old son Tomás for being impressed and keeping me motivated.
 
