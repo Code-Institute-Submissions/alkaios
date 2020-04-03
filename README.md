@@ -51,10 +51,10 @@ Expected users of the website include:
 4. HTML 5
 5. CSS 3
 5. Bootstrap 4
-  a. Grid 
-  b. Cards
-  c. Carousel
-  d. Modal
+  * Grid 
+  * Cards
+  * Carousel
+  * Modal
 6. Responsive design - Mobile First
 
 ## Existing Features
