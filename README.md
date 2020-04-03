@@ -106,6 +106,18 @@ This project makes use of:
 - [Am I Responsive](http://ami.responsivedesign.is)
     - Testing responsiveness of the website
 ## Testing
+1. All HTML pages checked at https://validator.w3.org/ no errors or warnings reported.
+   * index.html 1 error which was correted.
+
+2. The W3C CSS Validation Service at https://jigsaw.w3.org/css-validator/ was used to verify the css
+   * 2 errors that were corected'
+3. Family member tested on Galaxy S 7 reported that all looked good and worked as expected.
+4. Family member tested on Lenovo Tab reported error in home page in landscape.
+   * corrected with media querie.
+5. I tested on HP Omen Laptop all looked good and worked as expected.
+6. Family friend tested on an iPad and reported that it does not display well.
+   * I was unable to access an iPad to reproduce the error. Chrome dev tools displayed it as expected when using the iPad setting.
+
 
 ## Deployment
 The project is hosted on [GitHub Pages](https://s10n.github.io/alkaios)
