@@ -8,7 +8,7 @@ This is a place to come
 
 ## UX
 
-  ![Responsive view of site](https://github.com/S10N/alkaios/blob/1088d8c9d05d4313965079bc53277ef77e8769dc/assets/Documentation/Responsive.png)
+  ![Responsive view of site](https://github.com/S10N/alkaios/blob/1088d8c9d05d4313965079bc53277ef77e8769dc/assets/Documentation/responsive.png)
 
 ### Users
 
