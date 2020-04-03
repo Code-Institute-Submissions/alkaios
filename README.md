@@ -140,6 +140,7 @@ During development the site was written using Gitpod.
 2. The Contact page has been adapted from an idea on https://mdbootstrap.com/
 3. The Media page has been adapted from an idea on https://mdbootstrap.com/
 4. The classes page was adapted from an idea on https://ashleydw.github.io/lightbox/#image-gallery
+5. The read me file has been adapted from the structure shown on https://github.com/Pattern-Projects/oireachtas-ifd-project/blob/master/README.md
 
 ## Media
 Some of the images for the website are taken from:
