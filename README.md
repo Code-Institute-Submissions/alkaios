@@ -6,7 +6,7 @@ Alkaios Strength through fitness. A community orientated gymnasium for all, rega
 
 ## UX
 
-  ![Responsive view of site](documentation/Responsive.png)
+  [Responsive view of site](documentation/Responsive.png)
 
 ### Users
 
@@ -55,7 +55,7 @@ Expected users of the website include:
 - Animations
 - Transitions
 - Git - Version Control System
-- GitHub - Remote Repository
+- GitHub - [Remote Repository](https://github.com/S10N/alkaios)
 - Deployed and Hosted on [GitHub Pages](https://s10n.Github.io/alkaios/index.html)
 
 
