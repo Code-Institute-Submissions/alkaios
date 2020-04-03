@@ -5,7 +5,8 @@
 Alkaios Strength through fitness. A community orientated gymnasium for all, regardless of ability or fitness levels.
 
 ## UX
-![Responsive Views of Home Page] (documentation/AmIResponsive.png)
+
+![ Responsive Views of Home Page ] (documentation/Responsive.png)
 
 ### Users
 
