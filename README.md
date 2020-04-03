@@ -65,7 +65,8 @@ Expected users of the website include:
 4. Grid System 
    * Columns and Rows
 5. images
-6. Responsive design - Mobile First
+6. Responsive design 
+   * Mobile First
 7. UX elements
 8. Animations/Transitions
 9. Git - Version Control System
@@ -76,6 +77,31 @@ Expected users of the website include:
 ## Features Left to Implement
 1. Payment gateway for membership portal
 2. full calendar Schedule for classes.
+## Technologies Used
+
+This project makes use of:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - HTML for strucutre
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - CSS for Styling
+- [JavaScript](https://www.w3schools.com/jsref/)
+    - **JavaScript** for application controller
+- [Google Chrome](https://www.google.com/chrome/)
+    - Used for browser and dev tools
+- [Google](https://www.google.com/)
+    - **Google** was used for research.
+- [Bootstrap](https://getbootstrap.com/)
+    - HTML and CSS Framework from **Bootstrap**
+- [GitPod](https://gitpod.io/)
+    - This project was built using the **GitPod** IDE
+- [Git](https://git-scm.com/)
+    - **Git** used for Version Control
+- [GitHub](https://github.com/)
+    - Repository hosted on **GitHub**
+- [Github Pages](https://s10n.github.io/alkaios/index.html)
+    - Website hosted on **Github Pages**
+- [Am I Responsive](http://ami.responsivedesign.is)
+    - Testing responsiveness of the website
 
 ## Deployment
 - The project is hosted on [GitHub Pages]
@@ -116,7 +142,7 @@ Some of the images for the website are taken from:
 
 
 ## Acknowledgements
-Code Institute for allowing me to extend the project time to accommodate a busy work period.
-Thank you to  - Seun Owonikoko  @seun_mentor for the direction I needed.
-Also to my 9 yr. old son Tomás for being impressed and keeping me motivated.
+* Code Institute for allowing me to extend the project time to accommodate a busy work period.
+* Thank you to  - Seun Owonikoko  @seun_mentor for the direction I needed.
+* Also to my 9 yr. old son Tomás for being impressed and keeping me motivated.
 
