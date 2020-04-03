@@ -35,6 +35,14 @@ Expected users of the website include:
 - ![#1049A9](https://placehold.it/15/1049A9/000000?text=+) `#1049A9`
 - ![#FFA400](https://placehold.it/15/FFA400/000000?text=+) `#FFA400`
 
+## UX elements
+- User Flow
+- Animations
+- Transitions
+- Git - Version Control System
+- GitHub - [Remote Repository](https://github.com/S10N/alkaios)
+- Deployed and Hosted on [GitHub Pages](https://s10n.Github.io/alkaios/index.html)
+
 ## Planned Features
 
 1. Logo
@@ -48,16 +56,6 @@ Expected users of the website include:
   c. Carousel
   d. Modal
 6. Responsive design - Mobile First
-
-
-## UX elements
-- User Flow
-- Animations
-- Transitions
-- Git - Version Control System
-- GitHub - [Remote Repository](https://github.com/S10N/alkaios)
-- Deployed and Hosted on [GitHub Pages](https://s10n.Github.io/alkaios/index.html)
-
 
 ## Existing Features
 
