@@ -2,11 +2,13 @@
 
 # User Centric Frontend Development Milestone Project - alkaios
 
-Alkaios Strength through fitness. A community orientated gymnasium for all, regardless of ability or fitness levels.
+Alkaios Strength through fitness. 
+A community orientated gymnasium for all, regardless of ability or fitness levels.
+This is a place to come
 
 ## UX
 
-  ![Responsive view of site](https://github.com/S10N/alkaios/blob/d6c7748dede505ac595fccb00f4a2b00c3588f5f/assets/Documentation/Responsive.png)
+  ![Responsive view of site](https://github.com/S10N/alkaios/blob/d6c7748dede505ac595fccb00f4a2b00c3588f5f/assets/Documentation/image.png)
 
 ### Users
 
@@ -77,8 +79,8 @@ Expected users of the website include:
 ## Features Left to Implement
 1. Payment gateway for membership portal
 2. full calendar Schedule for classes.
-## Technologies Used
 
+## Technologies Used
 This project makes use of:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - HTML for strucutre
@@ -104,7 +106,6 @@ This project makes use of:
     - Testing responsiveness of the website
 
 ## Deployment
-
 The project is hosted on [GitHub Pages](https://s10n.github.io/alkaios)
 
 The process involved:
