@@ -208,7 +208,11 @@ h1 {
   text-align: center;
     }
 
+/*----home----*/
 
+#home .col {
+    margin-bottom: 10px;
+    }
 
 #home h2  {
     margin-top: 10px;
