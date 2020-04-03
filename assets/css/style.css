@@ -22,7 +22,7 @@ body {
 
 .header {
     margin: 0;
-    height: 150xp;
+    height: 150px;
     flex-shrink: 0;
     }
 
@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5 {
     }
 
 .name {
-    font-family: "Exo" sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 46px;
     margin-top: 30px;
