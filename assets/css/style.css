@@ -303,16 +303,16 @@ video .video-fluid{
 
 /*------------------------------------------------------------Contactus*/
 
-#contact h1 {
+#contactus h1 {
     margin: 0;
     text-align: center;
 }
 
-#contact .row bg-color-contact{
+#contactus .row .bg-color-contact{
     margin-left: 0;
 }
 
-.contact-heading {
+.contactus-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -327,12 +327,13 @@ video .video-fluid{
 
 button[type="submit"] {
     margin-top: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: #fafafa;
     background-color: #29497F;
 }
 .btn {
     margin-top: 20px;
+    margin-bottom: 50px;
     }
 /*------------------------------------------------------------Contactus*/
 
@@ -502,10 +503,17 @@ margin-left: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
     min-height: 300px;
-    margin: 0 auto;
+    margin: 0 30px auto;
     max-width: 30%;
     }
-    
+ #contactus h3{
+     width: auto;
+     height: auto;
+ }
+ #contactus h5{
+     height: auto;
+     width: auto;
+ }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -520,19 +528,20 @@ margin-left: 25px;
 .center-form {
     padding-top: 30px;
     padding-bottom: 30px;
-    min-height: 240px;
+    min-height: auto;
     margin: 0 auto;
     max-width: 40%;
     }
 
 #contactus{
-    height: auto;
+ 
+        height: 1300px;
     }
 
 #media{
     display: flex;
     flex-direction: column;
-    height: 1000;
+    height: 1000px;
     }
 
 #classes{
@@ -557,7 +566,7 @@ margin-left: 25px;
     }
 
 #contactus {
-    height: 1200px;
+    height: 1300px;
     }
 
 
