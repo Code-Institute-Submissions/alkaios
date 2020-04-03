@@ -3,8 +3,9 @@
 # User Centric Frontend Development Milestone Project - alkaios
 
 Alkaios Strength through fitness. 
-A community orientated gymnasium for all, regardless of ability or fitness levels.
-This is a place to come
+Website for a community orientated gymnasium for all, regardless of ability or fitness levels.
+This is a place to come for classes and to see the gym and its resources.
+
 
 ## UX
 
@@ -104,6 +105,7 @@ This project makes use of:
     - Website hosted on **Github Pages**
 - [Am I Responsive](http://ami.responsivedesign.is)
     - Testing responsiveness of the website
+## Testing
 
 ## Deployment
 The project is hosted on [GitHub Pages](https://s10n.github.io/alkaios)
