@@ -56,7 +56,7 @@ Expected users of the website include:
 - Transitions
 - Git - Version Control System
 - GitHub - Remote Repository
-- Deployed and Hosted on ![GitHub Pages](https://s10n.Github.io/alkaios/index.html)
+- Deployed and Hosted on [GitHub Pages](https://s10n.Github.io/alkaios/index.html)
 
 
 ## Existing Features
