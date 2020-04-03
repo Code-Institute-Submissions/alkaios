@@ -104,27 +104,34 @@ This project makes use of:
     - Testing responsiveness of the website
 
 ## Deployment
-- The project is hosted on [GitHub Pages]
-- The process involved:
-- Host a git repository on GitHub. Explained 
+
+The project is hosted on [GitHub Pages](https://s10n.github.io/alkaios)
+
+The process involved:
+- Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
 - The root folder contains README.md and index.html files
 - On GitHub repository settings page move to GitHub Pages section
 - Change source to master branch. (Or any desired branch)
-- Provided link will be your projects home (index) page. 
-- To deploy your own version of the website:
+- Provided link will be your projects home (index) page.
+ 
+To deploy your own version of the website:
 - Have git installed
-- Visit the repository
+- Visit the [repository]([GitHub](https://github.com/s10n/alkaios))
 - Click 'Clone or download' and copy the code for http
-- Open your chosen IDE (Cloud9, Gitpod, etc.)
+- Open your chosen IDE (Cloud9, VS Code, etc.)
 - Open a terminal in your root directory
-- Type 'git clone ' followed by the code taken from GitHub repository
+- Type 'git clone ' followed by the code taken from github repository
+    - ```git clone https://github.com/s10n/alkaios.git```
 - When this completes you have your own version of the website
-- Feel free to make any changes to it
+    
 - The website can be run by opening one of the HTML files within a web browser
+- Visit the link provided
+- Your website with any made changes will appear
+- Saved changes to the website will appear here after refreshing the page
 
-A benefit of hosting the website on GitHub pages is any pushed changes to the project are updated on the website. 
-Development branches can be created and merged to the master when complete.
-some changes can be a little bit slow and causes some frustration.
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.
 
 During development the site was written using Gitpod.
 
