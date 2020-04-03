@@ -6,7 +6,7 @@ Alkaios Strength through fitness. A community orientated gymnasium for all, rega
 
 ## UX
 
-  [Responsive view of site](https://github.com/S10N/alkaios/blob/d6c7748dede505ac595fccb00f4a2b00c3588f5f/assets/Documentation/Responsive.png)
+  ![Responsive view of site](https://github.com/S10N/alkaios/blob/d6c7748dede505ac595fccb00f4a2b00c3588f5f/assets/Documentation/Responsive.png)
 
 ### Users
 
