@@ -62,7 +62,7 @@ Expected users of the website include:
 2. CSS 3
 3. Bootstrap 
 4. Grid System 
-  * Columns and Rows
+   * Columns and Rows
 5. images
 6. Responsive design - Mobile First
 7. UX elements
