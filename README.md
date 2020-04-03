@@ -55,7 +55,8 @@ Expected users of the website include:
    * Cards
    * Carousel
    * Modal
-7. Responsive design - Mobile First
+7. Responsive design 
+   * Mobile First
 
 ## Existing Features
 1. HTML 5
